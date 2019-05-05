@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gentle Chef Index</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<style>
+	.list {
+		font-family:sans-serif;
+		margin:0;
+		padding:20px 0 0;
+	}
+	.list > li {
+		display:block;
+		background-color: #eee;
+		padding:10px;
+		box-shadow: inset 0 1px 0 #fff;
+	}
+	.avatar {
+		max-width: 150px;
+	}
+	img {
+		max-width: 100%;
+	}
+	h3 {
+		font-size: 16px;
+		margin:0 0 0.3rem;
+		font-weight: normal;
+		font-weight:bold;
+	}
+	p {
+		margin:0;
+	}
+	input {
+		border:solid 1px #ccc;
+		border-radius: 5px;
+		padding:7px 14px;
+		margin-bottom:10px
+	}
+	input:focus {
+		outline:none;
+		border-color:#aaa;
+	}
+	.sort {
+		padding:8px 30px;
+		border-radius: 6px;
+		border:none;
+		display:inline-block;
+		color:#fff;
+		text-decoration: none;
+		background-color: #28a8e0;
+		height:30px;
+	}
+	.sort:hover {
+		text-decoration: none;
+		background-color:#1b8aba;
+	}
+	.sort:focus {
+		outline:none;
+	}
+	.sort:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		content:"";
+		position: relative;
+		top:-10px;
+		right:-5px;
+	}
+	.sort.asc:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #fff;
+		content:"";
+		position: relative;
+		top:13px;
+		right:-5px;
+	}
+	.sort.desc:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid #fff;
+		content:"";
+		position: relative;
+		top:-10px;
+		right:-5px;
+	}
+	span.type {
+		display: none;
+	}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var values = [{
+					name: 'Worcestshire Sauce',
+					location: 'Seitan and Beyond p. 25',
+					type: 'essentials incidentals'},
+				{
+					name: 'Browing Liquid',
+					location: 'Seitan and Beyond p. 26',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Better Butter',
+					location: 'Seitan and Beyond p. 27',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Seasoned Butter',
+					location: 'Seitan and Beyond p. 28',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Black Garlic Truffle Butter',
+					location: 'Seitan and Beyond p. 29',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Honee Butter',
+					location: 'Seitan and Beyond p. 29',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Soy Cream',
+					location: 'Seitan and Beyond p. 30',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Cashew Milk',
+					location: 'Seitan and Beyond p. 31',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Quick Buttermilk',
+					location: 'Seitan and Beyond p. 32',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Garbanzo Bean Flour',
+					location: 'Seitan and Beyond p. 32',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Old-Fashioned Brown Sugar',
+					location: 'Seitan and Beyond p. 32',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Instant Chicken Bouillon Powder',
+					location: 'Seitan and Beyond p. 33',
+					type: 'essentials incidentals'
+				},
+				{
+					name: 'Aromatica (aka Poultry Seasoning)',
+					location: 'Seitan and Beyond p. 34',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Garam Masala',
+					location: 'Seitan and Beyond p. 34',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Berber Spice Blend',
+					location: 'Seitan and Beyond p. 35',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Montreal Seasoning',
+					location: 'Seitan and Beyond p. 35',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Jamaican Jerk Spice',
+					location: 'Seitan and Beyond p. 36',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Cajun Dry Run',
+					location: 'Seitan and Beyond p. 36',
+					type: 'seasoning blends'
+				},
+				{
+					name: 'Traditional Seitan',
+					location: 'Seitan and Beyond p. 37',
+					type: 'quick seitan'
+				},
+				{
+					name: 'Quick Seitan',
+					location: 'Seitan and Beyond p. 38',
+					type: 'quick seitan'
+				},
+				{
+					name: 'Chickun Simmering Broth',
+					location: 'Seitan and Beyond p. 42',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chikun Cutlets, Tenders and Nuggets',
+					location: 'Seitan and Beyond p. 43',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Piccata',
+					location: 'Seitan and Beyond p. 45',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Lemon Tarragon Marinade',
+					location: 'Seitan and Beyond p. 46',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Murgh Makhani (Butter Chickun)',
+					location: 'Seitan and Beyond p. 46',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Triple-Dip Battered Chickun',
+					location: 'Seitan and Beyond p. 48',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Yakitori and Satay Marinade',
+					location: 'Seitan and Beyond p. 49',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chikun Drumsticks and Drummettes',
+					location: 'Seitan and Beyond p. 50',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Ethiopian Chickun',
+					location: 'Seitan and Beyond p. 52',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Seasoned Breadcrumb Coating for Fried Chickun',
+					location: 'Seitan and Beyond p. 53',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Satay',
+					location: 'Seitan and Beyond p. 54',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Tandoori Chickun Marinade',
+					location: 'Seitan and Beyond p. 56',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Shredded Chickun',
+					location: 'Seitan and Beyond p. 57',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Tex-Mex Shredded Chickun',
+					location: 'Seitan and Beyond p. 59',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'BBQ and Teriyaki Shredded Chickun',
+					location: 'Seitan and Beyond p. 59',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Mediterranean Chickun',
+					location: 'Seitan and Beyond p. 60',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun and Vegetable Stir Fry',
+					location: 'Seitan and Beyond p. 61',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Stewing Chickun',
+					location: 'Seitan and Beyond p. 62',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Thai Green Curry',
+					location: 'Seitan and Beyond p. 64',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Succulent Roast Chickun',
+					location: 'Seitan and Beyond p. 65',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Roulades',
+					location: 'Seitan and Beyond p. 48',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Champignon',
+					location: 'Seitan and Beyond p. 70',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Cordon Bleu',
+					location: 'Seitan and Beyond p. 71',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Chickun Kiev',
+					location: 'Seitan and Beyond p. 72',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Soy Chickun Strips',
+					location: 'Seitan and Beyond p. 71',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Spicy Buffalo Soy Chickun Drummettes',
+					location: 'Seitan and Beyond p. 75',
+					type: 'chickun chicken'
+				},
+				{
+					name: 'Beaf Simmering Broth',
+					location: 'Seitan and Beyond p. 78',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Tournedos of Beaf',
+					location: 'Seitan and Beyond p. 79',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Steak Diane',
+					location: 'Seitan and Beyond p. 82',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Steak Medici',
+					location: 'Seitan and Beyond p. 83',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Steak au Poivre',
+					location: 'Seitan and Beyond p. 84',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Steak Bites',
+					location: 'Seitan and Beyond p. 85',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Beaf en Brochette, Shis Kebab and Satay',
+					location: 'Seitan and Beyond p. 87',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Beaf Short Ribz',
+					location: 'Seitan and Beyond p. 88',
+					type: 'beaf beef ribs'
+				},
+				{
+					name: 'Prime Cut Roast Beaf',
+					location: 'Seitan and Beyond p. 90',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Quick Pan Gravy for Roast Beaf',
+					location: 'Seitan and Beyond p. 92',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Yam Neua (Spicy Thai Beaf Salad)',
+					location: 'Seitan and Beyond p. 92',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Sauerbraten',
+					location: 'Seitan and Beyond p. 93',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Chinese Pepper Beaf',
+					location: 'Seitan and Beyond p. 94',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Stewing Beaf',
+					location: 'Seitan and Beyond p. 95',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Shredded Beaf',
+					location: 'Seitan and Beyond p. 97',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Shredded Beaf',
+					location: 'Seitan and Beyond p. 98',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Corned Beaf Brisket',
+					location: 'Seitan and Beyond p. 99',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Deli-Style Pastrami',
+					location: 'Seitan and Beyond p. 101',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Lightly-Seasoned Beaf Crumbles',
+					location: 'Seitan and Beyond p. 103',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Lughtly-Seasoned Textured Soy Crumbles',
+					location: 'Seitan and Beyond p. 104',
+					type: 'beaf beef'
+				},
+				{
+					name: 'Porq Simmering Broth',
+					location: 'Seitan and Beyond p. 106',
+					type: 'porq pork'
+				},
+				{
+					name: 'Chops and Cutlets',
+					location: 'Seitan and Beyond p. 107',
+					type: 'porq pork'
+				},
+				{
+					name: 'Tamari Citrus Glazed Chops',
+					location: 'Seitan and Beyond p. 109',
+					type: 'porq pork'
+				},
+				{
+					name: 'Tonkatsu',
+					location: 'Seitan and Beyond p. 110',
+					type: 'porq pork'
+				},
+				{
+					name: 'Pulled Porq',
+					location: 'Seitan and Beyond p. 111',
+					type: 'porq pork'
+				},
+				{
+					name: 'BBQ and Teriyaki Pulled Porq',
+					location: 'Seitan and Beyond p. 113',
+					type: 'porq pork'
+				},
+				{
+					name: 'Carnitas (Mexican Pulled Porq)',
+					location: 'Seitan and Beyond p. 114',
+					type: 'porq pork'
+				},
+				{
+					name: 'Polynesian Pulled Porq',
+					location: 'Seitan and Beyond p. 114',
+					type: 'porq pork'
+				},
+				{
+					name: 'Chili Verde',
+					location: 'Seitan and Beyond p. 115',
+					type: 'porq pork'
+				},
+				{
+					name: 'Country-Style Ribz and Rack Ribz',
+					location: 'Seitan and Beyond p. 116',
+					type: 'porq pork ribs'
+				},
+				{
+					name: 'Smoky Brown Sugar Bacun',
+					location: 'Seitan and Beyond p. 119',
+					type: 'porq pork bacon smokey facun'
+				},
+				{
+					name: 'Sweet and Smoky Baco\'bits',
+					location: 'Seitan and Beyond p. 121',
+					type: 'porq pork bacon facun'
+				},
+				{
+					name: 'Country Garden Ham',
+					location: 'Seitan and Beyond p. 122',
+					type: 'porq pork'
+				},
+				{
+					name: 'Split Pea Soup with Country Garden Ham',
+					location: 'Seitan and Beyond p. 124',
+					type: 'porq pork'
+				},
+				{
+					name: 'Deli-Style Garden Ham',
+					location: 'Seitan and Beyond p. 125',
+					type: 'porq pork'
+				},
+				{
+					name: 'Succulent Roast Turky',
+					location: 'Seitan and Beyond p. 127',
+					type: 'meat turkey'
+				},
+				{
+					name: 'Sage Dressing with Mushrooms and Water Chestnuts',
+					location: 'Seitan and Beyond p. 130',
+					type: 'meat'
+				},
+				{
+					name: 'Amber Waves of Gravy',
+					location: 'Seitan and Beyond p. 131',
+					type: 'meat'
+				},
+				{
+					name: 'Scaloppine/Escalope/Schnitzel',
+					location: 'Seitan and Beyond p. 132',
+					type: 'meat'
+				},
+				{
+					name: 'Breading and Pan-Frying Technique for Scaloppine/Escalope/Schnitzel',
+					location: 'Seitan and Beyond p. 134',
+					type: 'meat'
+				},
+				{
+					name: 'Greek Gyro Roast',
+					location: 'Seitan and Beyond p. 135',
+					type: 'meat sausages baked'
+				},
+				{
+					name: 'Classic Greek Gyro',
+					location: 'Seitan and Beyond p. 136',
+					type: 'meat'
+				},
+				{
+					name: 'New-Fashioned Meat Loaf',
+					location: 'Seitan and Beyond p. 137',
+					type: 'meat'
+				},
+				{
+					name: 'Grillin\' Burgers',
+					location: 'Seitan and Beyond p. 139',
+					type: 'meat'
+				},
+				{
+					name: 'Meatballs (with six variations)',
+					location: 'Seitan and Beyond p. 141',
+					type: 'meat'
+				},
+				{
+					name: 'Kebabi',
+					location: 'Seitan and Beyond p. 143',
+					type: 'meat'
+				},
+				{
+					name: 'Individual Hand-Rolled Sausages',
+					location: 'Seitan and Beyond p. 145',
+					type: 'sausages'
+				},
+				{
+					name: 'Italian Sausages, "Sweet" or "Hot"',
+					location: 'Seitan and Beyond p. 148',
+					type: 'sausages'
+				},
+				{
+					name: 'Bavarian Bratwurst',
+					location: 'Seitan and Beyond p. 149',
+					type: 'sausages'
+				},
+				{
+					name: 'Frankfurts',
+					location: 'Seitan and Beyond p. 149',
+					type: 'sausages'
+				},
+				{
+					name: 'Andouille Sausage',
+					location: 'Seitan and Beyond p. 150',
+					type: 'sausages'
+				},
+				{
+					name: 'Maple Sage Sausage Links',
+					location: 'Seitan and Beyond p. 150',
+					type: 'sausages'
+				},
+				{
+					name: 'British "Bangers"',
+					location: 'Seitan and Beyond p. 151',
+					type: 'sausages'
+				},
+				{
+					name: 'Chickun Apple Sausage',
+					location: 'Seitan and Beyond p. 151',
+					type: 'sausages chicken'
+				},
+				{
+					name: 'Polska Kielbasa (Polish Sausage)',
+					location: 'Seitan and Beyond p. 152',
+					type: 'sausages'
+				},
+				{
+					name: 'Country Breakfast Sausage Patties',
+					location: 'Seitan and Beyond p. 153',
+					type: 'sausages'
+				},
+				{
+					name: 'Italian Sausage Roll and Crumbles, "Sweet" or "Hot"',
+					location: 'Seitan and Beyond p. 155',
+					type: 'sausages'
+				},
+				{
+					name: 'Pepperoni',
+					location: 'Seitan and Beyond p. 157',
+					type: 'sausages baked'
+				},
+				{
+					name: 'Hard Salami',
+					location: 'Seitan and Beyond p. 159',
+					type: 'sausages'
+				},
+				{
+					name: 'Chorizo',
+					location: 'Seitan and Beyond p. 161',
+					type: 'sausages baked'
+				},
+				{
+					name: 'Tunada',
+					location: 'Seitan and Beyond p. 163',
+					type: 'tuna surf'
+				},
+				{
+					name: 'Mock Tuna Sashimi',
+					location: 'Seitan and Beyond p. 165',
+					type: 'tuna surf'
+				},
+				{
+					name: 'Carrot Caviar',
+					location: 'Seitan and Beyond p. 166',
+					type: 'surf'
+				},
+				{
+					name: 'Ceviche',
+					location: 'Seitan and Beyond p. 165',
+					type: 'surf'
+				},
+				{
+					name: 'Clamz',
+					location: 'Seitan and Beyond p. 165',
+					type: 'surf clams'
+				},
+				{
+					name: 'Linguini with Clamz Sauce',
+					location: 'Seitan and Beyond p. 170',
+					type: 'surf clams'
+				},
+				{
+					name: 'Fried Clamz',
+					location: 'Seitan and Beyond p. 171',
+					type: 'surf clams'
+				},
+				{
+					name: 'Fire-Roasted Jalapeno and Lime Tartar Sauce',
+					location: 'Seitan and Beyond p. 171',
+					type: 'surf'
+				},
+				{
+					name: 'New England Clamz Chowdah',
+					location: 'Seitan and Beyond p. 172',
+					type: 'surf clams'
+				},
+				{
+					name: 'Maryland Crab\'less Cakes',
+					location: 'Seitan and Beyond p. 173',
+					type: 'surf crab cakes'
+				},
+				{
+					name: 'Breaded Jackfysh Filets',
+					location: 'Seitan and Beyond p. 175',
+					type: 'surf fish fillets'
+				},
+				{
+					name: 'Battered Tofysh Filets',
+					location: 'Seitan and Beyond p. 177',
+					type: 'surf fish fillets'
+				},
+				{
+					name: 'Shirataki Scallops',
+					location: 'Seitan and Beyond p. 179',
+					type: 'surf'
+				},
+				{
+					name: 'Mock Lobster',
+					location: 'Seitan and Beyond p. 181',
+					type: 'surf'
+				},
+				{
+					name: 'Newburg Sauce',
+					location: 'Seitan and Beyond p. 183',
+					type: 'surf'
+				},
+				{
+					name: 'Mock Lobster Rolls',
+					location: 'Seitan and Beyond p. 184',
+					type: 'surf'
+				},
+				{
+					name: 'Savory Onion Gravy',
+					location: 'Seitan and Beyond p. 185',
+					type: 'gravy'
+				},
+				{
+					name: 'Hearty Brown Gravy',
+					location: 'Seitan and Beyond p. 186',
+					type: 'gravy'
+				},
+				{
+					name: 'Jus\'',
+					location: 'Seitan and Beyond p. 186',
+					type: 'gravy'
+				},
+				{
+					name: 'Golden Gravy',
+					location: 'Seitan and Beyond p. 187',
+					type: 'gravy'
+				},
+				{
+					name: 'Queso Nacho Sauce',
+					location: 'Seitan and Beyond p. 188',
+					type: 'sauce'
+				},
+				{
+					name: 'Queso Blacno Sauce (Mexican White Cheese Sauce)',
+					location: 'Seitan and Beyond p. 188',
+					type: 'sauce'
+				},
+				{
+					name: 'Golden Cheddar Sauce',
+					location: 'Seitan and Beyond p. 189',
+					type: 'sauce'
+				},
+				{
+					name: 'Buerre Blanc',
+					location: 'Seitan and Beyond p. 190',
+					type: 'butter'
+				},
+				{
+					name: 'Chef\'s Best Mariana Sauce',
+					location: 'Seitan and Beyond p. 191',
+					type: 'sauce'
+				},
+				{
+					name: 'Chef\'s Best Alfredo Sauce',
+					location: 'Seitan and Beyond p. 192',
+					type: 'sauce'
+				},
+				{
+					name: 'Hollandaise Sauce',
+					location: 'Seitan and Beyond p. 193',
+					type: 'sauce'
+				},
+				{
+					name: 'Bernaise Sauce',
+					location: 'Seitan and Beyond p. 194',
+					type: 'sauce'
+				},
+				{
+					name: 'Tartar Sauce',
+					location: 'Seitan and Beyond p. 195',
+					type: 'sauce'
+				},
+				{
+					name: 'Creamy Horseradish Sauce',
+					location: 'Seitan and Beyond p. 195',
+					type: 'sauce'
+				},
+				{
+					name: 'Chimichurri Sauce',
+					location: 'Seitan and Beyond p. 196',
+					type: 'sauce'
+				},
+				{
+					name: 'Chef\'s Best BBQ Sauce with Jack D\'s variation',
+					location: 'Seitan and Beyond p. 197',
+					type: 'sauce'
+				},
+				{
+					name: 'Barbacoa Sauce',
+					location: 'Seitan and Beyond p. 197',
+					type: 'sauce'
+				},
+				{
+					name: 'Tamari Ginger Satay Dipping Sauce',
+					location: 'Seitan and Beyond p. 198',
+					type: 'sauce'
+				},
+				{
+					name: 'Spicy Indonesian Peanut Satay Dipping Sauce',
+					location: 'Seitan and Beyond p. 198',
+					type: 'sauce'
+				},
+				{
+					name: 'Stir Fry Sauce',
+					location: 'Seitan and Beyond p. 199',
+					type: 'sauce'
+				},
+				{
+					name: 'Island Teriyaki Sauce and Glaze with Island Fire variation',
+					location: 'Seitan and Beyond p. 200',
+					type: 'sauce'
+				},
+				{
+					name: 'Char Siu Glaze',
+					location: 'Seitan and Beyond p. 201',
+					type: 'sauce glaze'
+				},
+				{
+					name: 'No-Eggy Mayo',
+					location: 'Seitan and Beyond p. 202',
+					type: 'condiments'
+				},
+				{
+					name: 'Quick Sour Cream',
+					location: 'Seitan and Beyond p. 204',
+					type: 'condiments'
+				},
+				{
+					name: 'Quick Créme Fraîche',
+					location: 'Seitan and Beyond p. 205',
+					type: 'condiments creme fraiche'
+				},
+				{
+					name: 'Quick Greek-Style Yoghurt (uncultured)',
+					location: 'Seitan and Beyond p. 206',
+					type: 'condiments'
+				},
+				{
+					name: 'Greek Tzatiki',
+					location: 'Seitan and Beyond p. 207',
+					type: 'condiments'
+				},
+				{
+					name: 'Indian Raita',
+					location: 'Seitan and Beyond p. 207',
+					type: 'condiments'
+				},
+				{
+					name: 'Hari Chutney (Cilantro Mint)',
+					location: 'Seitan and Beyond p. 208',
+					type: 'condiments corriander'
+				},
+				{
+					name: 'Gourmet Dijon Mustard',
+					location: 'Seitan and Beyond p. 209',
+					type: 'condiments'
+				},
+				{
+					name: 'Gourmet Ketchup',
+					location: 'Seitan and Beyond p. 209',
+					type: 'condiments'
+				},
+				{
+					name: 'Sweet and Smoky Tomato Jam',
+					location: 'Seitan and Beyond p. 210',
+					type: 'condiments smokey'
+				},
+				{
+					name: 'Colby Melt',
+					location: 'Seitan and Beyond p. 211',
+					type: 'condiments'
+				},
+				{
+					name: 'Tangy Cheddar Melt',
+					location: 'Seitan and Beyond p. 213',
+					type: 'condiments'
+				},
+			];
+
+			var options = {
+				valueNames: [ 'name', 'location', 'type' ],
+				item: '<li><h3 class="name"></h3><span class="location"></span><span class="type"></span></li>'
+			};
+
+			var userList = new List('recipes', options, values);
+		});
+	</script>
+</head>
+<body>
+	<div id="recipes">
+		<input class="search" placeholder="Search" />
+		<button class="sort" data-sort="name">Sort by name</button>
+	
+		<ul class="list"></ul>
+	</div>
+</body>
+</html>
