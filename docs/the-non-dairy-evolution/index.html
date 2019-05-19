@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gentle Chef Index - The Non Dairy Evolution</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<style>
+	body {
+		font-family:sans-serif;
+	}
+	.list {
+		margin:0;
+		padding:20px 0 0;
+	}
+	.list > li {
+		display:block;
+		background-color: #eee;
+		padding:10px;
+		box-shadow: inset 0 1px 0 #fff;
+	}
+	.avatar {
+		max-width: 150px;
+	}
+	img {
+		max-width: 100%;
+	}
+	h3 {
+		font-size: 16px;
+		margin:0 0 0.3rem;
+		font-weight: normal;
+		font-weight:bold;
+	}
+	input {
+		border:solid 1px #ccc;
+		border-radius: 5px;
+		padding:7px 14px;
+		margin-bottom:10px
+	}
+	input:focus {
+		outline:none;
+		border-color:#aaa;
+	}
+	.sort {
+		padding:8px 30px;
+		border-radius: 6px;
+		border:none;
+		display:inline-block;
+		color:#fff;
+		text-decoration: none;
+		background-color: #28a8e0;
+		height:30px;
+	}
+	.sort:hover {
+		text-decoration: none;
+		background-color:#1b8aba;
+	}
+	.sort:focus {
+		outline:none;
+	}
+	.sort:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		content:"";
+		position: relative;
+		top:-10px;
+		right:-5px;
+	}
+	.sort.asc:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-top: 5px solid #fff;
+		content:"";
+		position: relative;
+		top:13px;
+		right:-5px;
+	}
+	.sort.desc:after {
+		width: 0;
+		height: 0;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid #fff;
+		content:"";
+		position: relative;
+		top:-10px;
+		right:-5px;
+	}
+	span.type {
+		display: none;
+	}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var values = [
+				{
+					name: 'Soymilk',
+					location: 'Seitan and Beyond p. 12',
+					type: 'milks mylk'
+				},
+			];
+
+			var options = {
+				valueNames: [ 'name', 'location', 'type' ],
+				item: '<li><h3 class="name"></h3><span class="location"></span><span class="type"></span></li>'
+			};
+
+			var userList = new List('recipes', options, values);
+		});
+	</script>
+</head>
+<body>
+	<h3>Seitan and Beyond Recipes</h3>
+	<p>This page only contains a searchable index for the book <a href="https://thegentlechef.com/gentle-chef-cookbooks/seitan-beyond-cookbook/">Seitan and Beyond</a> this page does not contain any recipes, so if you want them just go and buy the book - it's worth every penny!</p>
+	<div id="recipes">
+		<input class="search" placeholder="Search" />
+		<button class="sort" data-sort="name">Sort by name</button>
+	
+		<ul class="list"></ul>
+	</div>
+</body>
+</html>
