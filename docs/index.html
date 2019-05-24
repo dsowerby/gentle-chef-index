@@ -2162,7 +2162,8 @@
 				item: '<li><h3 class="name"></h3><span class="location"></span><span class="type"></span></li>'
 			};
 
-			var userList = new List('recipes', options, seitanAndBeyondValues.concat(cookAndLetLiveValues));
+			var recipes = seitanAndBeyondValues.concat(cookAndLetLiveValues);
+			var userList = new List('recipes', options, recipes);
 		});
 	</script>
 </head>
