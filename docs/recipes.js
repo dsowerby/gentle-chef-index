@@ -2271,7 +2271,7 @@ var theGentleChefCookbookRecipes = [
 		type: 'seitan'
 	},
 	{
-		name: 'Herb Roasted Chick\'n',
+		name: 'Herb Roasted Chik\'n',
 		location: 'The Gentle Chef Cookbook p. 30',
 		type: 'seitan chickn chicken chickun'
 	},
@@ -2545,5 +2545,549 @@ var theGentleChefCookbookRecipes = [
 		location: 'The Gentle Chef Cookbook p. 86',
 		type: 'breakfast'
 	},
-
+	{
+		name: 'Deli Roll-Ups',
+		location: 'The Gentle Chef Cookbook p. 87',
+		type: 'appetizers appetisers'
+	},
+	{
+		name: 'Gazpacho Shots',
+		location: 'The Gentle Chef Cookbook p. 87',
+		type: 'drinks'
+	},
+	{
+		name: 'Hummus',
+		location: 'The Gentle Chef Cookbook p. 88',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Black Olive Tapenade',
+		location: 'The Gentle Chef Cookbook p. 88',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Tempura Jalapeno Poppers',
+		location: 'The Gentle Chef Cookbook p. 89',
+		type: 'appetizer appetiser jalapeño'
+	},
+	{
+		name: 'Pepper-Garlic Edamame',
+		location: 'The Gentle Chef Cookbook p. 89',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Baba Ghanouj',
+		location: 'The Gentle Chef Cookbook p. 90',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Stuffed Potato Poppers',
+		location: 'The Gentle Chef Cookbook p. 91',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Swedish Seitan Meatballs',
+		location: 'The Gentle Chef Cookbook p. 92',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Garlic Herb Croutons',
+		location: 'The Gentle Chef Cookbook p. 93',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Salsa non Queso',
+		location: 'The Gentle Chef Cookbook p. 94',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Indian Curry Samosas',
+		location: 'The Gentle Chef Cookbook p. 95',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Hot Spinach Artichoke Dip',
+		location: 'The Gentle Chef Cookbook p. 96',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Fried Green Tomatoes with Red Pepper Aioli',
+		location: 'The Gentle Chef Cookbook p. 97',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Wholly Guacamole!',
+		location: 'The Gentle Chef Cookbook p. 98',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Savory Onion Dip',
+		location: 'The Gentle Chef Cookbook p. 98',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Devilled Eggless',
+		location: 'The Gentle Chef Cookbook p. 99',
+		type: 'appetizer appetiser eggs eggz'
+	},
+	{
+		name: 'Crispy Vegetable Parkoras',
+		location: 'The Gentle Chef Cookbook p. 100',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'Faux Gras',
+		location: 'The Gentle Chef Cookbook p. 101',
+		type: 'dips spreads foie gras'
+	},
+	{
+		name: 'Chik\'n Salad in Fillo Cups',
+		location: 'The Gentle Chef Cookbook p. 102',
+		type: 'appetizer appetiser chicken chickun chickn'
+	},
+	{
+		name: 'Zesty Ranch Dip',
+		location: 'The Gentle Chef Cookbook p. 102',
+		type: 'dips spreads'
+	},
+	{
+		name: 'Dolmas (Stuffed Grape Leaves)',
+		location: 'The Gentle Chef Cookbook p. 103',
+		type: 'appetizer appetiser'
+	},
+	{
+		name: 'No-Eggy Mayo',
+		location: 'The Gentle Chef Cookbook p. 105',
+		type: 'sauces'
+	},
+	{
+		name: 'Chunky Blue Cheese Dressing',
+		location: 'The Gentle Chef Cookbook p. 107',
+		type: 'sauces'
+	},
+	{
+		name: 'Macaroni Picnic Salad',
+		location: 'The Gentle Chef Cookbook p. 108',
+		type: 'salad side'
+	},
+	{
+		name: 'Russian Dressing',
+		location: 'The Gentle Chef Cookbook p. 108',
+		type: 'sauces'
+	},
+	{
+		name: 'Thousand Island Dressing',
+		location: 'The Gentle Chef Cookbook p. 108',
+		type: 'sauces'
+	},
+	{
+		name: 'Tarragon Chik\'n Salad',
+		location: 'The Gentle Chef Cookbook p. 109',
+		type: 'salad chickun chicken chickn'
+	},
+	{
+		name: 'Chik\'n Nirvana Salad',
+		location: 'The Gentle Chef Cookbook p. 110',
+		type: 'salad chickun chicken chickn'
+	},
+	{
+		name: '*Buttermilk* Ranch Dressing',
+		location: 'The Gentle Chef Cookbook p. 111',
+		type: 'salad'
+	},
+	{
+		name: 'Insalata Caprese',
+		location: 'The Gentle Chef Cookbook p. 112',
+		type: 'salad'
+	},
+	{
+		name: 'Creamy Caesar Dressing',
+		location: 'The Gentle Chef Cookbook p. 113',
+		type: 'salad chickun chicken chickn'
+	},
+	{
+		name: 'Mock Tuna Salad',
+		location: 'The Gentle Chef Cookbook p. 114',
+		type: 'fish fysh'
+	},
+	{
+		name: 'Eggless Salad',
+		location: 'The Gentle Chef Cookbook p. 115',
+		type: 'salad eggs eggz'
+	},
+	{
+		name: 'Refrigerator Pickles',
+		location: 'The Gentle Chef Cookbook p. 116',
+		type: 'salad'
+	},
+	{
+		name: 'Quinoa Salad',
+		location: 'The Gentle Chef Cookbook p. 117',
+		type: ''
+	},
+	{
+		name: 'Asian Ginger Burger (Resaturant-Style)',
+		location: 'The Gentle Chef Cookbook p. 118',
+		type: ''
+	},
+	{
+		name: 'Garlic Herb Vinaigrette',
+		location: 'The Gentle Chef Cookbook p. 118',
+		type: 'salad dressing'
+	},
+	{
+		name: 'German Hot Potato Salad',
+		location: 'The Gentle Chef Cookbook p. 119',
+		type: 'sides'
+	},
+	{
+		name: 'Balsamic Vinaigrette',
+		location: 'The Gentle Chef Cookbook p. 119',
+		type: 'dressing'
+	},
+	{
+		name: 'Gretchen\'s Favorite Potato Salad',
+		location: 'The Gentle Chef Cookbook p. 120',
+		type: 'sides'
+	},
+	{
+		name: 'Quick Vegetable Broth',
+		location: 'The Gentle Chef Cookbook p. 121',
+		type: ''
+	},
+	{
+		name: 'Quick Chik\'n Broth',
+		location: 'The Gentle Chef Cookbook p. 121',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Savory Chick\n Broth',
+		location: 'The Gentle Chef Cookbook p. 121',
+		type: 'chicken chickun chikn'
+	},
+	{
+		name: 'Chik\'n Broth Powder',
+		location: 'The Gentle Chef Cookbook p. 122',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Quick Beaf Broth',
+		location: 'The Gentle Chef Cookbook p. 123',
+		type: 'beef'
+	},
+	{
+		name: 'Savory Beaf Broth',
+		location: 'The Gentle Chef Cookbook p. 123',
+		type: 'beeef'
+	},
+	{
+		name: 'Gazpacho',
+		location: 'The Gentle Chef Cookbook p. 124',
+		type: 'soup'
+	},
+	{
+		name: 'Potato Leek Soup',
+		location: 'The Gentle Chef Cookbook p. 125',
+		type: 'soup'
+	},
+	{
+		name: 'African Peanut Soup',
+		location: 'The Gentle Chef Cookbook p. 126',
+		type: 'soup'
+	},
+	{
+		name: 'Hawaiian Chik\'n Long Rice',
+		location: 'The Gentle Chef Cookbook p. 127',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Moroccan Tagine (Stew)',
+		location: 'The Gentle Chef Cookbook p. 128',
+		type: ''
+	},
+	{
+		name: 'Tom Kha Kha (Thai Coconut Chik\'n Soup)',
+		location: 'The Gentle Chef Cookbook p. 129',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Not Your Grandmother\'s Chik\'n Noodle Soup',
+		location: 'The Gentle Chef Cookbook p. 130',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Spicy Ginger Carrot Soup',
+		location: 'The Gentle Chef Cookbook p. 130',
+		type: ''
+	},
+	{
+		name: 'Cold Beet Borscht',
+		location: 'The Gentle Chef Cookbook p. 131',
+		type: 'beetroot'
+	},
+	{
+		name: 'Beaf Bourguignon',
+		location: 'The Gentle Chef Cookbook p. 132',
+		type: 'beef'
+	},
+	{
+		name: 'French Onion Soup',
+		location: 'The Gentle Chef Cookbook p. 133',
+		type: ''
+	},
+	{
+		name: 'Creme of Broccoli Soup',
+		location: 'The Gentle Chef Cookbook p. 134',
+		type: 'cream'
+	},
+	{
+		name: 'Sweet and Sour Cabbage Soup',
+		location: 'The Gentle Chef Cookbook p. 134',
+		type: ''
+	},
+	{
+		name: 'Vietnamese Phó Soup',
+		location: 'The Gentle Chef Cookbook p. 135',
+		type: 'pho'
+	},
+	{
+		name: 'Potato Corn Chowder',
+		location: 'The Gentle Chef Cookbook p. 136',
+		type: 'soup'
+	},
+	{
+		name: 'Creamy Tomato Bisque',
+		location: 'The Gentle Chef Cookbook p. 137',
+		type: 'soup'
+	},
+	{
+		name: 'Slow-Cooker Bean Barley Soup',
+		location: 'The Gentle Chef Cookbook p. 138',
+		type: ''
+	},
+	{
+		name: 'Creamy Parsnip, Potato and Cauliflower Soup',
+		location: 'The Gentle Chef Cookbook p. 140',
+		type: ''
+	},
+	{
+		name: 'Chik\'n Pot Pie Soup',
+		location: 'The Gentle Chef Cookbook p. 141',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Mulligatawny Soup (Curry Chik\'n Soup)',
+		location: 'The Gentle Chef Cookbook p. 142',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Creme of Mushroom Soup',
+		location: 'The Gentle Chef Cookbook p. 143',
+		type: 'cream'
+	},
+	{
+		name: 'Mock Lobster Bisque',
+		location: 'The Gentle Chef Cookbook p. 144',
+		type: ''
+	},
+	{
+		name: 'White Bean Kale Soup',
+		location: 'The Gentle Chef Cookbook p. 145',
+		type: ''
+	},
+	{
+		name: 'Beaf Mushroom Stroganoff',
+		location: 'The Gentle Chef Cookbook p. 146',
+		type: 'beef'
+	},
+	{
+		name: 'Stuffed Portabella Mushrooms',
+		location: 'The Gentle Chef Cookbook p. 147',
+		type: ''
+	},
+	{
+		name: 'Chesapeake Bay "Seafood" Cakes',
+		location: 'The Gentle Chef Cookbook p. 148',
+		type: 'fish fysh'
+	},
+	{
+		name: 'Scalloped Potatoes Gratin',
+		location: 'The Gentle Chef Cookbook p. 149',
+		type: ''
+	},
+	{
+		name: 'Easy Skillet Chili',
+		location: 'The Gentle Chef Cookbook p. 150',
+		type: 'chilli'
+	},
+	{
+		name: 'Chili Chedda\' Cornbread',
+		location: 'The Gentle Chef Cookbook p. 151',
+		type: 'cheese cheddar'
+	},
+	{
+		name: 'Grilled Portabella Mushrooms',
+		location: 'The Gentle Chef Cookbook p. 152',
+		type: ''
+	},
+	{
+		name: 'Shephard\'s Pie',
+		location: 'The Gentle Chef Cookbook p. 153',
+		type: ''
+	},
+	{
+		name: 'Herbed Scallion Rice',
+		location: 'The Gentle Chef Cookbook p. 153',
+		type: ''
+	},
+	{
+		name: 'Yankee Pot Roast',
+		location: 'The Gentle Chef Cookbook p. 154',
+		type: ''
+	},
+	{
+		name: 'Battered or Breaded "Seafood" Fillets',
+		location: 'The Gentle Chef Cookbook p. 155',
+		type: 'fish fysh'
+	},
+	{
+		name: 'Garden Seitan Meatloaf',
+		location: 'The Gentle Chef Cookbook p. 156',
+		type: ''
+	},
+	{
+		name: 'Sautéed Peppers and Onions',
+		location: 'The Gentle Chef Cookbook p. 157',
+		type: ''
+	},
+	{
+		name: 'Fried Chik\'n',
+		location: 'The Gentle Chef Cookbook p. 158',
+		type: 'chicken chickun chickn'
+	},
+	{
+		name: 'Creole Jambalaya',
+		location: 'The Gentle Chef Cookbook p. 159',
+		type: ''
+	},
+	{
+		name: 'Easy Stuffed Bell Peppers',
+		location: 'The Gentle Chef Cookbook p. 160',
+		type: ''
+	},
+	{
+		name: 'Chik\'n Fried "Steak" with Country Gravy',
+		location: 'The Gentle Chef Cookbook p. 161',
+		type: 'chicken chickun chickn gravey beaf beef'
+	},
+	{
+		name: 'Caraway Cabbage',
+		location: 'The Gentle Chef Cookbook p. 162',
+		type: ''
+	},
+	{
+		name: 'Slow-Cooker Stuffed Cabbage Rolls',
+		location: 'The Gentle Chef Cookbook p. 163',
+		type: ''
+	},
+	{
+		name: 'Roasted Cauliflower',
+		location: 'The Gentle Chef Cookbook p. 164',
+		type: ''
+	},
+	{
+		name: 'Perfect Asparagus',
+		location: 'The Gentle Chef Cookbook p. 165',
+		type: ''
+	},
+	{
+		name: 'Green Bean Casserole',
+		location: 'The Gentle Chef Cookbook p. 166',
+		type: ''
+	},
+	{
+		name: 'French-Fried Onions',
+		location: 'The Gentle Chef Cookbook p. 167',
+		type: ''
+	},
+	{
+		name: 'Flash Sautéed Kale',
+		location: 'The Gentle Chef Cookbook p. 167',
+		type: 'sauteed'
+	},
+	{
+		name: 'Mac\' and Cheese',
+		location: 'The Gentle Chef Cookbook p. 168',
+		type: ''
+	},
+	{
+		name: '"Bangers" and Mash',
+		location: 'The Gentle Chef Cookbook p. 169',
+		type: 'british'
+	},
+	{
+		name: 'Beaf Wellington with Mushroom Pâté',
+		location: 'The Gentle Chef Cookbook p. 170',
+		type: 'british beef pate'
+	},
+	{
+		name: 'Seitan Asada Tacos',
+		location: 'The Gentle Chef Cookbook p. 171',
+		type: ''
+	},
+	{
+		name: 'South of the Border Casserole',
+		location: 'The Gentle Chef Cookbook p. 172',
+		type: ''
+	},
+	{
+		name: 'Sizzlin\' Fajitas',
+		location: 'The Gentle Chef Cookbook p. 174',
+		type: ''
+	},
+	{
+		name: 'Pasta Primavera',
+		location: 'The Gentle Chef Cookbook p. 176',
+		type: ''
+	},
+	{
+		name: 'Brocolli Mushroom Alfredo',
+		location: 'The Gentle Chef Cookbook p. 177',
+		type: 'pasta'
+	},
+	{
+		name: 'Eggplant Rollatini',
+		location: 'The Gentle Chef Cookbook p. 178',
+		type: 'aubergine'
+	},
+	{
+		name: 'Chik\'n Piccata',
+		location: 'The Gentle Chef Cookbook p. 179',
+		type: 'chicken chickun chickn pasta'
+	},
+	{
+		name: 'Eggplant Parmigiana',
+		location: 'The Gentle Chef Cookbook p. 180',
+		type: 'aubergine'
+	},
+	{
+		name: 'Garden Lasagna',
+		location: 'The Gentle Chef Cookbook p. 181',
+		type: 'lasagne pasta'
+	},
+	{
+		name: 'Sauerbraten (German Pot Roast)',
+		location: 'The Gentle Chef Cookbook p. 182',
+		type: 'german'
+	},
+	{
+		name: 'German Red Cabbage',
+		location: 'The Gentle Chef Cookbook p. 183',
+		type: 'german'
+	},
+	{
+		name: 'Brats and Sauerkraut',
+		location: 'The Gentle Chef Cookbook p. 184',
+		type: 'german sausages'
+	},
 ];
