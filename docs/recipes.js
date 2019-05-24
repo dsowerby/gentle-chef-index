@@ -2325,4 +2325,114 @@ var theGentleChefCookbookRecipes = [
 		location: 'The Gentle Chef Cookbook p. 40',
 		type: 'seitan'
 	},
+	{
+		name: 'Foil Wrap and Steam Technique for Sausages',
+		location: 'The Gentle Chef Cookbook p. 42',
+		type: 'sausages'
+	},
+	{
+		name: 'German Bratwurst',
+		location: 'The Gentle Chef Cookbook p. 43',
+		type: 'sausages'
+	},
+	{
+		name: 'Italian Sausage',
+		location: 'The Gentle Chef Cookbook p. 44',
+		type: 'sausages'
+	},
+	{
+		name: 'Andouille Sausage',
+		location: 'The Gentle Chef Cookbook p. 45',
+		type: 'sausages'
+	},
+	{
+		name: '"Bangers"',
+		location: 'The Gentle Chef Cookbook p. 46',
+		type: 'sausages'
+	},
+	{
+		name: 'Maple Sage Breakfast Sauage',
+		location: 'The Gentle Chef Cookbook p. 47',
+		type: 'sausages'
+	},
+	{
+		name: 'Brown \'n\' Service Sausage Patties',
+		location: 'The Gentle Chef Cookbook p. 49',
+		type: 'sausages'
+	},
+	{
+		name: 'Sausage Crumbles',
+		location: 'The Gentle Chef Cookbook p. 50',
+		type: 'sausages'
+	},
+	{
+		name: 'Pepperoni',
+		location: 'The Gentle Chef Cookbook p. 51',
+		type: 'sausages'
+	},
+	{
+		name: 'Frankfurters',
+		location: 'The Gentle Chef Cookbook p. 53',
+		type: 'sausages'
+	},
+	{
+		name: 'What is Tofu?',
+		location: 'The Gentle Chef Cookbook p. 55',
+		type: 'tofu soy'
+	},
+	{
+		name: 'Preparing Tofu for Recipes',
+		location: 'The Gentle Chef Cookbook p. 56',
+		type: 'soy'
+	},
+	{
+		name: 'What is Tempeh?',
+		location: 'The Gentle Chef Cookbook p. 56',
+		type: 'soy'
+	},
+	{
+		name: 'Glazed Tofu',
+		location: 'The Gentle Chef Cookbook p. 57',
+		type: 'soy'
+	},
+	{
+		name: 'Crispy Fried Tofu',
+		location: 'The Gentle Chef Cookbook p. 58',
+		type: 'soy'
+	},
+	{
+		name: 'What is TVP',
+		location: 'The Gentle Chef Cookbook p. 59',
+		type: 'soy'
+	},
+	{
+		name: 'Seasoned Ground',
+		location: 'The Gentle Chef Cookbook p. 59',
+		type: 'soy'
+	},
+	{
+		name: 'Tex Mex Seasoned Ground',
+		location: 'The Gentle Chef Cookbook p. 60',
+		type: 'soy'
+	},
+	{
+		name: 'Better Butter',
+		location: 'The Gentle Chef Cookbook p. 62',
+		type: 'dairy'
+	},
+	{
+		name: 'Heavy Creme',
+		location: 'The Gentle Chef Cookbook p. 64',
+		type: 'dairy'
+	},
+	{
+		name: 'Sour Creme',
+		location: 'The Gentle Chef Cookbook p. 65',
+		type: 'dairy'
+	},
+	{
+		name: 'Golden Parmesan',
+		location: 'The Gentle Chef Cookbook p. 66',
+		type: 'dairy'
+	},
 ];
