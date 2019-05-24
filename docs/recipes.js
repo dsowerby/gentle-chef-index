@@ -2173,3 +2173,156 @@ var nonDairyEvolutionRecipes = [
 		type: 'dressing ranch dairy'
 	},
 ];
+
+var theGentleChefCookbookRecipes = [
+	{
+		name: 'Seitan, the Wheat Meat',
+		location: 'The Gentle Chef Cookbook p. 3',
+		type: 'seitan'
+	},
+	{
+		name: 'Preparing Seitan',
+		location: 'The Gentle Chef Cookbook p. 4',
+		type: 'seitan'
+	},
+	{
+		name: 'Simmering Seitan',
+		location: 'The Gentle Chef Cookbook p. 6',
+		type: 'seitan'
+	},
+	{
+		name: 'Baking Seitan',
+		location: 'The Gentle Chef Cookbook p. 8',
+		type: 'seitan'
+	},
+	{
+		name: 'Steaming Seitan',
+		location: 'The Gentle Chef Cookbook p. 8',
+		type: 'seitan'
+	},
+	{
+		name: 'Basic Seitan and Beaf Seitan',
+		location: 'The Gentle Chef Cookbook p. 9',
+		type: 'seitan beef'
+	},
+	{
+		name: 'Chik\'n Seitan',
+		location: 'The Gentle Chef Cookbook p. 11',
+		type: 'seitan chicken chickun chickn'
+	},
+	{
+		name: 'Seitan Mignon',
+		location: 'The Gentle Chef Cookbook p. 13',
+		type: 'seitan'
+	},
+	{
+		name: 'Seitan Satay',
+		location: 'The Gentle Chef Cookbook p. 15',
+		type: 'seitan'
+	},
+	{
+		name: 'Seitan Kofta',
+		location: 'The Gentle Chef Cookbook p. 16',
+		type: 'seitan'
+	},
+	{
+		name: 'Seitan Meatballs',
+		location: 'The Gentle Chef Cookbook p. 18',
+		type: 'seitan'
+	},
+	{
+		name: 'Corned Beaf',
+		location: 'The Gentle Chef Cookbook p. 20',
+		type: 'seitan beef'
+	},
+	{
+		name: 'Grilled Reuben',
+		location: 'The Gentle Chef Cookbook p. 22',
+		type: 'seitan'
+	},
+	{
+		name: 'Bacun',
+		location: 'The Gentle Chef Cookbook p. 23',
+		type: 'seitan bacon facon facun'
+	},
+	{
+		name: 'Rack of Ribz',
+		location: 'The Gentle Chef Cookbook p. 25',
+		type: 'seitan ribs'
+	},
+	{
+		name: 'Foil Wrap Technique for Seitan Roasts',
+		location: 'The Gentle Chef Cookbook p. 27',
+		type: 'seitan'
+	},
+	{
+		name: 'Pan-Glazing Technique for Seitan Roasts',
+		location: 'The Gentle Chef Cookbook p. 28',
+		type: 'seitan'
+	},
+	{
+		name: 'Savory Butter',
+		location: 'The Gentle Chef Cookbook p. 29',
+		type: 'seitan'
+	},
+	{
+		name: 'Quick Pan Gravy for Seitan Roasts',
+		location: 'The Gentle Chef Cookbook p. 29',
+		type: 'seitan'
+	},
+	{
+		name: 'Herb Roasted Chick\'n',
+		location: 'The Gentle Chef Cookbook p. 30',
+		type: 'seitan chickn chicken chickun'
+	},
+	{
+		name: 'Island Roast',
+		location: 'The Gentle Chef Cookbook p. 31',
+		type: 'seitan'
+	},
+	{
+		name: 'Carving Board Smoked Turk\'y',
+		location: 'The Gentle Chef Cookbook p. 32',
+		type: 'seitan'
+	},
+	{
+		name: 'Baked Hammy',
+		location: 'The Gentle Chef Cookbook p. 33',
+		type: 'seitan'
+	},
+	{
+		name: 'Roast Turk\'y with Stuffing',
+		location: 'The Gentle Chef Cookbook p. 34',
+		type: 'seitan turkey turky'
+	},
+	{
+		name: 'Roast Beaf',
+		location: 'The Gentle Chef Cookbook p. 37',
+		type: 'seitan beef'
+	},
+	{
+		name: 'French Dip Sandwich with Au Jus',
+		location: 'The Gentle Chef Cookbook p. 38',
+		type: 'seitan'
+	},
+	{
+		name: 'Beaf Au Jus',
+		location: 'The Gentle Chef Cookbook p. 38',
+		type: 'seitan beef'
+	},
+	{
+		name: 'The Gentle Philly',
+		location: 'The Gentle Chef Cookbook p. 39',
+		type: 'seitan'
+	},
+	{
+		name: 'Classic Greek Gyro',
+		location: 'The Gentle Chef Cookbook p. 39',
+		type: 'seitan'
+	},
+	{
+		name: 'Greek Gyro Roast',
+		location: 'The Gentle Chef Cookbook p. 40',
+		type: 'seitan'
+	},
+];
