@@ -3090,4 +3090,332 @@ var theGentleChefCookbookRecipes = [
 		location: 'The Gentle Chef Cookbook p. 184',
 		type: 'german sausages'
 	},
+	{
+		name: 'Delhi Delight',
+		location: 'The Gentle Chef Cookbook p. 184',
+		type: 'indian'
+	},
+	{
+		name: 'Saag Tofu Paneer (Creamed Spinach with Tofu Cheese)',
+		location: 'The Gentle Chef Cookbook p. 185',
+		type: 'indian'
+	},
+	{
+		name: 'Tandoori Chik\'n Skewers',
+		location: 'The Gentle Chef Cookbook p. 186',
+		type: 'indian'
+	},
+	{
+		name: 'Skye\'s Garam Masala (Indian Spice Blend)',
+		location: 'The Gentle Chef Cookbook p. 187',
+		type: 'indian'
+	},
+	{
+		name: 'Mango Lassi (Yogurt Drink)',
+		location: 'The Gentle Chef Cookbook p. 187',
+		type: 'indian yoghurt'
+	},
+	{
+		name: 'Aloo Gobi (Indian-Spiced Potatoes and Cauliflower)',
+		location: 'The Gentle Chef Cookbook p. 188',
+		type: 'indian'
+	},
+	{
+		name: 'Biryani (Indian Rice)',
+		location: 'The Gentle Chef Cookbook p. 189',
+		type: 'indian'
+	},
+	{
+		name: 'Channa Masala (Indian-Spiced Chickpeas)',
+		location: 'The Gentle Chef Cookbook p. 190',
+		type: 'indian'
+	},
+	{
+		name: 'Dal (Indian-Spiced Lentils)',
+		location: 'The Gentle Chef Cookbook p. 191',
+		type: 'indian daal dahl'
+	},
+	{
+		name: 'Garlic Naan (Indian Flatbread)',
+		location: 'The Gentle Chef Cookbook p. 192',
+		type: 'indian'
+	},
+	{
+		name: 'Seitan Pad Thai',
+		location: 'The Gentle Chef Cookbook p. 194',
+		type: 'thai'
+	},
+	{
+		name: 'Tempura Vegetables',
+		location: 'The Gentle Chef Cookbook p. 196',
+		type: 'japanese pacific'
+	},
+	{
+		name: 'Sesame Miso Tofu with Vegetables',
+		location: 'The Gentle Chef Cookbook p. 197',
+		type: 'japanese pacific'
+	},
+	{
+		name: 'Sushi',
+		location: 'The Gentle Chef Cookbook p. 198',
+		type: 'japanese pacific'
+	},
+	{
+		name: 'Pineapple Terriyaki Chik\'n',
+		location: 'The Gentle Chef Cookbook p. 200',
+		type: 'japanese pacific'
+	},
+	{
+		name: 'Island Grilled Pineapple',
+		location: 'The Gentle Chef Cookbook p. 201',
+		type: 'japanese pacific'
+	},
+	{
+		name: 'Mongolian Beaf',
+		location: 'The Gentle Chef Cookbook p. 202',
+		type: 'chinese beef'
+	},
+	{
+		name: 'Ginger Garlic Chik\'n',
+		location: 'The Gentle Chef Cookbook p. 203',
+		type: 'chinese chicken chickun chikn'
+	},
+	{
+		name: 'Sweet and Sour Chik\'n',
+		location: 'The Gentle Chef Cookbook p. 204',
+		type: 'chinese chicken chickun chickn'
+	},
+	{
+		name: 'Golden Gravy',
+		location: 'The Gentle Chef Cookbook p. 205',
+		type: 'sauce gravey'
+	},
+	{
+		name: 'Creamy Horseradish Sauce',
+		location: 'The Gentle Chef Cookbook p. 205',
+		type: 'sauce'
+	},
+	{
+		name: 'Worcestershire Sauce',
+		location: 'The Gentle Chef Cookbook p. 206',
+		type: 'chinese japanese'
+	},
+	{
+		name: 'Terriyaki Sauce/Glaze',
+		location: 'The Gentle Chef Cookbook p. 206',
+		type: 'chinese japanese'
+	},
+	{
+		name: 'Savory Onion Gravy',
+		location: 'The Gentle Chef Cookbook p. 207',
+		type: 'gravey'
+	},
+	{
+		name: 'Soy Ginger Dipping Sauce',
+		location: 'The Gentle Chef Cookbook p. 208',
+		type: ''
+	},
+	{
+		name: 'Skye\'s Best BBQ Sauce',
+		location: 'The Gentle Chef Cookbook p. 208',
+		type: 'barbeque'
+	},
+	{
+		name: 'Tzatziki Sauce (Greek Cucumber Sauce)',
+		location: 'The Gentle Chef Cookbook p. 209',
+		type: ''
+	},
+	{
+		name: 'Classic "Cheese" Sauce',
+		location: 'The Gentle Chef Cookbook p. 210',
+		type: ''
+	},
+	{
+		name: 'Rémoulade Sauce',
+		location: 'The Gentle Chef Cookbook p. 211',
+		type: 'remoulade'
+	},
+	{
+		name: 'Spicy Thai Peanut Sauce',
+		location: 'The Gentle Chef Cookbook p. 212',
+		type: ''
+	},
+	{
+		name: 'Indian Curry Simmering Sauce',
+		location: 'The Gentle Chef Cookbook p. 212',
+		type: ''
+	},
+	{
+		name: 'Balsamic Gastrique',
+		location: 'The Gentle Chef Cookbook p. 212',
+		type: ''
+	},
+	{
+		name: 'Red Pepper Aioli',
+		location: 'The Gentle Chef Cookbook p. 213',
+		type: ''
+	},
+	{
+		name: 'Béarnaise Sauce',
+		location: 'The Gentle Chef Cookbook p. 214',
+		type: ''
+	},
+	{
+		name: 'Easy Cheesy Sauce',
+		location: 'The Gentle Chef Cookbook p. 215',
+		type: ''
+	},
+	{
+		name: 'Alfredo Sauce',
+		location: 'The Gentle Chef Cookbook p. 216',
+		type: ''
+	},
+	{
+		name: 'Hollandaise Sauce',
+		location: 'The Gentle Chef Cookbook p. 216',
+		type: ''
+	},
+	{
+		name: 'Béchamel Sauce',
+		location: 'The Gentle Chef Cookbook p. 217',
+		type: ''
+	},
+	{
+		name: 'Tempura Sauce',
+		location: 'The Gentle Chef Cookbook p. 218',
+		type: 'japanese'
+	},
+	{
+		name: 'Lemon Mustard Sauce',
+		location: 'The Gentle Chef Cookbook p. 218',
+		type: ''
+	},
+	{
+		name: 'Indian Riata',
+		location: 'The Gentle Chef Cookbook p. 219',
+		type: ''
+	},
+	{
+		name: 'Mike\'s Best Brownies',
+		location: 'The Gentle Chef Cookbook p. 220',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Peach Upside Down Cake',
+		location: 'The Gentle Chef Cookbook p. 221',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Lemon Cupcakes',
+		location: 'The Gentle Chef Cookbook p. 222',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Lemon Frosting',
+		location: 'The Gentle Chef Cookbook p. 223',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Mike\'s Gingerbread Cookies',
+		location: 'The Gentle Chef Cookbook p. 223',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Chocolate Cake',
+		location: 'The Gentle Chef Cookbook p. 224',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Chocolate Ganache Frosting',
+		location: 'The Gentle Chef Cookbook p. 225',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Mike\'s Best Ever Pumpkin Pie',
+		location: 'The Gentle Chef Cookbook p. 226',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Cranberry Creme Cheese Tartlets',
+		location: 'The Gentle Chef Cookbook p. 226',
+		type: 'desserts sweet treats cream'
+	},
+	{
+		name: 'Coconut Creme Pie',
+		location: 'The Gentle Chef Cookbook p. 227',
+		type: 'desserts sweet treats cream'
+	},
+	{
+		name: 'Banana Date Bread',
+		location: 'The Gentle Chef Cookbook p. 228',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Banana Creme Pie',
+		location: 'The Gentle Chef Cookbook p. 229',
+		type: 'desserts sweet treats cream'
+	},
+	{
+		name: 'Truffles',
+		location: 'The Gentle Chef Cookbook p. 230',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Pineapple Cooler (Beverage)',
+		location: 'The Gentle Chef Cookbook p. 230',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Organic Whole Wheat Chocolate Chippers',
+		location: 'The Gentle Chef Cookbook p. 231',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Chocolate Pudding',
+		location: 'The Gentle Chef Cookbook p. 232',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Organic Powdered Sugar',
+		location: 'The Gentle Chef Cookbook p. 232',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Flan',
+		location: 'The Gentle Chef Cookbook p. 233',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Mousse au Chocolat',
+		location: 'The Gentle Chef Cookbook p. 234',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Kheer (Indian Rice Pudding)',
+		location: 'The Gentle Chef Cookbook p. 235',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: '\'Coconut Milk\' Ice Creme',
+		location: 'The Gentle Chef Cookbook p. 236',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Chocolate (or Carob) \'Coconut Milk\' Ice Creme',
+		location: 'The Gentle Chef Cookbook p. 236',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Pina Colada \'Coconut Milk\' Ice Creme',
+		location: 'The Gentle Chef Cookbook p. 237',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Cashew Maple Pecan Ice Creme',
+		location: 'The Gentle Chef Cookbook p. 238',
+		type: 'desserts sweet treats'
+	},
+
+
+
 ];
