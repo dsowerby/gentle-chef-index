@@ -561,7 +561,7 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Saag Paneer (Indian Creamed Greens with Fresh Paneer Cheese)',
 		location: 'Cook & Let Live p. 160',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Fresh Almond Curd Cottage Cheese',
@@ -586,17 +586,17 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Greek Feta (almond curd and tofu variations)',
 		location: 'Cook & Let Live p. 191',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Creamy Feta Salad Dressing',
 		location: 'Cook & Let Live p. 192',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Garlic Herb Gournay (almond curd and tofu variations)',
 		location: 'Cook & Let Live p. 193',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Cultivated Yogurt (soymilk or almond milk)',
@@ -661,22 +661,22 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Hard Parmesano',
 		location: 'Cook & Let Live p. 2088',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Halloumi',
 		location: 'Cook & Let Live p. 209',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Shreddin\' Chedda\'',
 		location: 'Cook & Let Live p. 210',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Grated Sunflower Parmesan (soy and nut-free)',
 		location: 'Cook & Let Live p. 212',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Roquefort Cheese',
@@ -686,47 +686,47 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Chunky Roquefort Dressing',
 		location: 'Cook & Let Live p. 214',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Camembrie',
 		location: 'Cook & Let Live p. 215',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Melty Mozzarella',
 		location: 'Cook & Let Live p. 217',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Crock Beer Cheese',
 		location: 'Cook & Let Live p. 218',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Jarlsberg Cheese Melt',
 		location: 'Cook & Let Live p. 219',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Golden Cheese Melt',
 		location: 'Cook & Let Live p. 220',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Monterey Jack Cheese Melt',
 		location: 'Cook & Let Live p. 221',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Beer Cheese Sauce',
 		location: 'Cook & Let Live p. 222',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Cheddar and Sour Cream Seasoning Powder',
 		location: 'Cook & Let Live p. 223',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Scrambled Eggz',
@@ -1011,7 +1011,7 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Fried Mozzarella Sticks',
 		location: 'Cook & Let Live p. 293',
-		type: 'cheese cheeze'
+		type: 'cheese cheeze cheez'
 	},
 	{
 		name: 'Cheese Jalapeno Popper Dip',
@@ -2423,16 +2423,127 @@ var theGentleChefCookbookRecipes = [
 	{
 		name: 'Heavy Creme',
 		location: 'The Gentle Chef Cookbook p. 64',
-		type: 'dairy'
+		type: 'dairy cream'
 	},
 	{
 		name: 'Sour Creme',
 		location: 'The Gentle Chef Cookbook p. 65',
-		type: 'dairy'
+		type: 'dairy cream'
 	},
 	{
 		name: 'Golden Parmesan',
+		location: 'The Gentle Chef Cookbook p. 65',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Heavily Whipped Creme',
 		location: 'The Gentle Chef Cookbook p. 66',
+		type: 'dairy cream'
+	},
+	{
+		name: 'Gentle Swiss',
+		location: 'The Gentle Chef Cookbook p. 67',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Crème Fraiche',
+		location: 'The Gentle Chef Cookbook p. 68',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Tofu Ricotta',
+		location: 'The Gentle Chef Cookbook p. 68',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Creme Cheese',
+		location: 'The Gentle Chef Cookbook p. 69',
 		type: 'dairy'
 	},
+	{
+		name: 'Herbed Chevre',
+		location: 'The Gentle Chef Cookbook p. 70',
+		type: 'dairy'
+	},
+	{
+		name: 'Onion, Dill and Horseradish Cheese',
+		location: 'The Gentle Chef Cookbook p. 71',
+		type: 'dairy'
+	},
+	{
+		name: 'Garlic Pepper Havarti',
+		location: 'The Gentle Chef Cookbook p. 72',
+		type: 'dairy'
+	},
+	{
+		name: 'Fresh Nut Motzerella',
+		location: 'The Gentle Chef Cookbook p. 73',
+		type: 'dairy mozerella cheese'
+	},
+	{
+		name: 'Crumbly Block Feta',
+		location: 'The Gentle Chef Cookbook p. 74',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'English Gloucester with Onion and Chives',
+		location: 'The Gentle Chef Cookbook p. 75',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Tangy Smoked Chedda\'',
+		location: 'The Gentle Chef Cookbook p. 76',
+		type: 'dairy cheese cheeze cheddar'
+	},
+	{
+		name: 'Smoked Gouda',
+		location: 'The Gentle Chef Cookbook p. 77',
+		type: 'dairy cheese cheeze cheez'
+	},
+	{
+		name: 'Ruddy Mary Cocktail',
+		location: 'The Gentle Chef Cookbook p. 78',
+		type: 'drink breakfast'
+	},
+	{
+		name: 'Blueberry Pancakes',
+		location: 'The Gentle Chef Cookbook p. 79',
+		type: 'breakfast'
+	},
+	{
+		name: 'Southwestern Eggless Scramble',
+		location: 'The Gentle Chef Cookbook p. 80',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Corn Griddlecakes',
+		location: 'The Gentle Chef Cookbook p. 81',
+		type: 'breakfast'
+	},
+	{
+		name: 'Potatoes Parmigiano',
+		location: 'The Gentle Chef Cookbook p. 82',
+		type: 'breakfast'
+	},
+	{
+		name: 'French Toast',
+		location: 'The Gentle Chef Cookbook p. 83',
+		type: 'breakfast'
+	},
+	{
+		name: 'Country Frittata',
+		location: 'The Gentle Chef Cookbook p. 84',
+		type: 'breakfast fritatta'
+	},
+	{
+		name: 'Eggless Benedict',
+		location: 'The Gentle Chef Cookbook p. 85',
+		type: 'breakfast eggs eggz'
+	},
+	{
+		name: 'Sunburst Quiche',
+		location: 'The Gentle Chef Cookbook p. 86',
+		type: 'breakfast'
+	},
+
 ];
