@@ -2172,6 +2172,126 @@ var nonDairyEvolutionRecipes = [
 		location: 'Non-Dairy Evolution p. 35',
 		type: 'dressing ranch dairy'
 	},
+	{
+		name: 'Chilled Cucumber Buttermilk Soup',
+		location: 'Non-Dairy Evolution p. 36',
+		type: 'dressing dairy'
+	},
+	{
+		name: 'Cultured Sour Cream',
+		location: 'Non-Dairy Evolution p. 37',
+		type: 'dressing dairy'
+	},
+	{
+		name: 'Greek-Style Yoghurt',
+		location: 'Non-Dairy Evolution p. 38',
+		type: 'dressing dairy'
+	},
+	{
+		name: 'Greek Tzatziki',
+		location: 'Non-Dairy Evolution p. 40',
+		type: 'dressing dairy sauces'
+	},
+	{
+		name: 'Indian Raita',
+		location: 'Non-Dairy Evolution p. 41',
+		type: 'dressing dairy sauces'
+	},
+	{
+		name: 'Mango Lassi',
+		location: 'Non-Dairy Evolution p. 41',
+		type: 'dressing dairy drink'
+	},
+	{
+		name: 'Cream Cheese',
+		location: 'Non-Dairy Evolution p. 45',
+		type: 'dressing dairy'
+	},
+	{
+		name: 'Chèvre',
+		location: 'Non-Dairy Evolution p. 46',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Peppercorn Chèvre',
+		location: 'Non-Dairy Evolution p. 47',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Chèvre with Fines Herbes',
+		location: 'Non-Dairy Evolution p. 47',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Chèvre with Mulled Wine Swirl',
+		location: 'Non-Dairy Evolution p. 48',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Chèvre with Rosemary Balsamic Swirl',
+		location: 'Non-Dairy Evolution p. 49',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'White Cheddar Amandine',
+		location: 'Non-Dairy Evolution p. 50',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Extra-Sharp White Cheddar',
+		location: 'Non-Dairy Evolution p. 51',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Bleu Cheese',
+		location: 'Non-Dairy Evolution p. 52',
+		type: 'dairy cheese blue'
+	},
+	{
+		name: 'Chunky Bleu Cheese Dressing',
+		location: 'Non-Dairy Evolution p. 53',
+		type: 'dairy cheese blue'
+	},
+	{
+		name: 'Iceberg Wedge Salad with Chunky Bleu Cheese Dressing',
+		location: 'Non-Dairy Evolution p. 53',
+		type: 'dairy cheese blue'
+	},
+	{
+		name: 'Block and Wheel Cheeses',
+		location: 'Non-Dairy Evolution p. 54',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Block and Wheel Cheeses : An Introduction',
+		location: 'Non-Dairy Evolution p. 54',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Block and Wheel Cheeses : Preparation and Cooking Technique',
+		location: 'Non-Dairy Evolution p. 57',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Block and Wheel Cheeses : Troubleshooting Tips',
+		location: 'Non-Dairy Evolution p. 59',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Mozzarella di Tuscano',
+		location: 'Non-Dairy Evolution p. 63',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Mozzarella di Campana',
+		location: 'Non-Dairy Evolution p. 64',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Mozzarella Fresco',
+		location: 'Non-Dairy Evolution p. 65',
+		type: 'dairy cheese'
+	},
 ];
 
 var theGentleChefCookbookRecipes = [
