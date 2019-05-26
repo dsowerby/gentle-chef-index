@@ -2617,6 +2617,116 @@ var nonDairyEvolutionRecipes = [
 		location: 'Non-Dairy Evolution p. 125',
 		type: 'dairy cheese'
 	},
+	{
+		name: 'Eggless Egg Specialties',
+		location: 'Non-Dairy Evolution p. 126',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Sunrise Scramble',
+		location: 'Non-Dairy Evolution p. 126',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Sunrise Scramble Seasoning Blend',
+		location: 'Non-Dairy Evolution p. 127',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Sunnyside-Ups',
+		location: 'Non-Dairy Evolution p. 128',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'No-Yolks Sauce',
+		location: 'Non-Dairy Evolution p. 129',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Over-Easys',
+		location: 'Non-Dairy Evolution p. 130',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'No-No Huevos Rancheros',
+		location: 'Non-Dairy Evolution p. 131',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Eggless Eggs Mornay',
+		location: 'Non-Dairy Evolution p. 133',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Eggless Omelets',
+		location: 'Non-Dairy Evolution p. 134',
+		type: 'dairy eggs eggz omelettes'
+	},
+	{
+		name: 'Eggless Frittata',
+		location: 'Non-Dairy Evolution p. 135',
+		type: 'dairy eggs eggz fritata'
+	},
+	{
+		name: 'Mushroom, Onion and Suisse Quiche',
+		location: 'Non-Dairy Evolution p. 136',
+		type: 'dairy eggs eggz swiss'
+	},
+	{
+		name: 'Bedeviled Eggless Eggs',
+		location: 'Non-Dairy Evolution p. 137',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Eggless Egg Salad',
+		location: 'Non-Dairy Evolution p. 139',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'No-Eggy Mayo',
+		location: 'Non-Dairy Evolution p. 140',
+		type: 'dairy eggs eggz'
+	},
+	{
+		name: 'Non-Dairy Sweet Treats',
+		location: 'Non-Dairy Evolution p. 142',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Italian Mascarpone Cheesecake',
+		location: 'Non-Dairy Evolution p. 142',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Graham Cracker or Cookie Crumb Pie Shell',
+		location: 'Non-Dairy Evolution p. 143',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Chocolate Mascarpone Cheesecake',
+		location: 'Non-Dairy Evolution p. 144',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Crème Caramel',
+		location: 'Non-Dairy Evolution p. 145',
+		type: 'desserts sweet treats creme'
+	},
+	{
+		name: 'Fresh Fruit Gelato',
+		location: 'Non-Dairy Evolution p. 146',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Vanilla Bean (or Chocolate) Gelato',
+		location: 'Non-Dairy Evolution p. 146',
+		type: 'desserts sweet treats'
+	},
+	{
+		name: 'Marshmellows',
+		location: 'Non-Dairy Evolution p. 147',
+		type: 'desserts sweet treats'
+	},
 ];
 
 var theGentleChefCookbookRecipes = [
