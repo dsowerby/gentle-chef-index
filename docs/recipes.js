@@ -2452,6 +2452,171 @@ var nonDairyEvolutionRecipes = [
 		location: 'Non-Dairy Evolution p. 96',
 		type: 'dairy cheese tofu'
 	},
+	{
+		name: 'Miscellaneous Cheeses',
+		location: 'Non-Dairy Evolution p. 97',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Hard Parmesan',
+		location: 'Non-Dairy Evolution p. 97',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Garlic Parmesan Crostini',
+		location: 'Non-Dairy Evolution p. 98',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Risotto Parmesan',
+		location: 'Non-Dairy Evolution p. 98',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Grated Parmesan',
+		location: 'Non-Dairy Evolution p. 99',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Italian Mascarpone',
+		location: 'Non-Dairy Evolution p. 100',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Cheese Sauces',
+		location: 'Non-Dairy Evolution p. 101',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Golden Mac\' and Cheese',
+		location: 'Non-Dairy Evolution p. 102',
+		type: 'dairy cheese sauces pasta'
+	},
+	{
+		name: 'Scalloped Potatoes Gratin',
+		location: 'Non-Dairy Evolution p. 103',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Sauce Fromage Blanc',
+		location: 'Non-Dairy Evolution p. 104',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Potatoe Duphinoise',
+		location: 'Non-Dairy Evolution p. 105',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Mornay Sauce',
+		location: 'Non-Dairy Evolution p. 106',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Queso Nacho Sauce',
+		location: 'Non-Dairy Evolution p. 107',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Queso Blanco Sauce',
+		location: 'Non-Dairy Evolution p. 108',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Salsa con Queso',
+		location: 'Non-Dairy Evolution p. 109',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Cheese Melts',
+		location: 'Non-Dairy Evolution p. 110',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Colby Melt',
+		location: 'Non-Dairy Evolution p. 110',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Twice-Baked Cheesy Broccoli Potatoes',
+		location: 'Non-Dairy Evolution p. 111',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Jarlsberg Melt',
+		location: 'Non-Dairy Evolution p. 112',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Käsespätzle (German Spätzle with Cheese and Onions)',
+		location: 'Non-Dairy Evolution p. 113',
+		type: 'dairy cheese melts kasespatzle spatzle'
+	},
+	{
+		name: 'Spätzle',
+		location: 'Non-Dairy Evolution p. 114',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Tangy Cheddar Melt',
+		location: 'Non-Dairy Evolution p. 115',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Classic Grilled Cheese',
+		location: 'Non-Dairy Evolution p. 116',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Cheesy Broccoli, Cauliflower and Rice Casserole',
+		location: 'Non-Dairy Evolution p. 117',
+		type: 'dairy cheese melts'
+	},
+	{
+		name: 'Gruyère Melt',
+		location: 'Non-Dairy Evolution p. 118',
+		type: 'dairy cheese melts gruyere'
+	},
+	{
+		name: 'Gruyère and Chive Mashed Potatoes with Peppered Walnuts',
+		location: 'Non-Dairy Evolution p. 119',
+		type: 'dairy cheese melts gruyere'
+	},
+	{
+		name: 'French Onion Soup',
+		location: 'Non-Dairy Evolution p. 120',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Brown Stock',
+		location: 'Non-Dairy Evolution p. 121',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Fondue',
+		location: 'Non-Dairy Evolution p. 122',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Non-Dairy Seasoning Blends',
+		location: 'Non-Dairy Evolution p. 123',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Instant Cheddar Cheese Sauce Mix',
+		location: 'Non-Dairy Evolution p. 123',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Nacho Cheese No\'ritos Seasoning',
+		location: 'Non-Dairy Evolution p. 124',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Cool Buttermilk Ranch No\'ritos Seasoning',
+		location: 'Non-Dairy Evolution p. 125',
+		type: 'dairy cheese'
+	},
 ];
 
 var theGentleChefCookbookRecipes = [
