@@ -2292,6 +2292,166 @@ var nonDairyEvolutionRecipes = [
 		location: 'Non-Dairy Evolution p. 65',
 		type: 'dairy cheese'
 	},
+	{
+		name: 'Insalata Mozzarella Fresco',
+		location: 'Non-Dairy Evolution p. 66',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Pizza Margherita',
+		location: 'Non-Dairy Evolution p. 67',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Provolone Affumicata (Smoked Provolone)',
+		location: 'Non-Dairy Evolution p. 68',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'French Brie and Camembert',
+		location: 'Non-Dairy Evolution p. 69',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Brie (or Camembert) en Croûte with with Caramelized Mushrooms and Onion',
+		location: 'Non-Dairy Evolution p. 70',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Pepper Jack',
+		location: 'Non-Dairy Evolution p. 71',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Dill Havarti',
+		location: 'Non-Dairy Evolution p. 72',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Suisse',
+		location: 'Non-Dairy Evolution p. 73',
+		type: 'dairy cheese swiss'
+	},
+	{
+		name: 'Muenster',
+		location: 'Non-Dairy Evolution p. 74',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Smoked Gouda',
+		location: 'Non-Dairy Evolution p. 75',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Smoked Gouda, Spinach and Artichoke Drip',
+		location: 'Non-Dairy Evolution p. 76',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Golden Cheddar',
+		location: 'Non-Dairy Evolution p. 77',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Broccoli Cheddar Soup',
+		location: 'Non-Dairy Evolution p. 78',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Golden Stock',
+		location: 'Non-Dairy Evolution p. 79',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Americana',
+		location: 'Non-Dairy Evolution p. 80',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Potato Cheese Soup',
+		location: 'Non-Dairy Evolution p. 81',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Gloucester with Onions and Chives',
+		location: 'Non-Dairy Evolution p. 82',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Tofu-Based Cheeses',
+		location: 'Non-Dairy Evolution p. 83',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Sharp Tofu Cheddar',
+		location: 'Non-Dairy Evolution p. 83',
+		type: 'dairy cheese'
+	},
+	{
+		name: 'Mediterranean Herbed Feta',
+		location: 'Non-Dairy Evolution p. 85',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Chèvre Soja with Basil Pesto and Sun-Dried Tomatoes',
+		location: 'Non-Dairy Evolution p. 86',
+		type: 'dairy cheese tofu soya chevre'
+	},
+	{
+		name: 'Basil Pesto',
+		location: 'Non-Dairy Evolution p. 87',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Gorgonzola',
+		location: 'Non-Dairy Evolution p. 88',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Gorgonzola, Pear and Candied Walnut alad',
+		location: 'Non-Dairy Evolution p. 89',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Queso Fresco',
+		location: 'Non-Dairy Evolution p. 90',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Creamy Ricotta (with optional herbs)',
+		location: 'Non-Dairy Evolution p. 91',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Spinach Ricotta',
+		location: 'Non-Dairy Evolution p. 91',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Baked Manicotti',
+		location: 'Non-Dairy Evolution p. 92',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Chef\'s Best Marinara Sauce',
+		location: 'Non-Dairy Evolution p. 93',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Cottage Cheese',
+		location: 'Non-Dairy Evolution p. 94',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Garlic Herb Gournay',
+		location: 'Non-Dairy Evolution p. 95',
+		type: 'dairy cheese tofu'
+	},
+	{
+		name: 'Zesty Onion Hill Gournay',
+		location: 'Non-Dairy Evolution p. 96',
+		type: 'dairy cheese tofu'
+	},
 ];
 
 var theGentleChefCookbookRecipes = [
