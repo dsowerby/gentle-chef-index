@@ -1280,7 +1280,7 @@ var seitanAndBeyondRecipes = [{
 		location: 'Seitan and Beyond p. 25',
 		type: 'essentials incidentals'},
 	{
-		name: 'Browing Liquid',
+		name: 'Browning Liquid',
 		location: 'Seitan and Beyond p. 26',
 		type: 'essentials incidentals'
 	},
