@@ -4326,7 +4326,17 @@ var theGentleChefHolidayCookbook = [{
 	},
 	{
 		name: 'Whole Grain Bread Pudding with Drunken Raisins and Salted Caramel Sauce',
-		location: 'The Gentle Chef Holiday eCookbook p. 48 Classic ‘Nog 50 Pumpkin ‘Nog 51',
+		location: 'The Gentle Chef Holiday eCookbook p. 48',
 		type: ''
 	},
+	{
+		name: 'Classic Nog',
+		location: 'The Gentle Chef Holiday eCookbook p. 50',
+		type: ''
+	},
+	{
+		name: 'Pumpkin Nog',
+		location: 'The Gentle Chef Holiday eCookbook p. 51',
+		type: ''
+	}
 ];
