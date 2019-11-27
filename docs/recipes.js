@@ -4228,3 +4228,105 @@ var glutenFreeBoucherie = [{
 		type: ''
 	},
 ];
+
+var theGentleChefHolidayCookbook = [{
+		name: 'Apple, Walnut and Beet Salad with Citrus Miso Vinaigrette',
+		location: 'The Gentle Chef Holiday eCookbook p. 5',
+		type: ''
+	},
+	{
+		name: 'Mushroom Barley Soup',
+		location: 'The Gentle Chef Holiday eCookbook p. 7',
+		type: ''
+	},
+	{
+		name: 'Spicy Chipotle Pumpkin Soup with Toasted Pepitas',
+		location: 'The Gentle Chef Holiday eCookbook p. 9',
+		type: ''
+	},
+	{
+		name: 'Succulent Roast Turk’y with Amber Waves of Gravy',
+		location: 'The Gentle Chef Holiday eCookbook p. 11',
+		type: ''
+	},
+	{
+		name: 'Sage Dressing with Mushrooms and Water Chestnuts',
+		location: 'The Gentle Chef Holiday eCookbook p. 17',
+		type: ''
+	},
+	{
+		name: 'Country Garden Ham',
+		location: 'The Gentle Chef Holiday eCookbook p. 18',
+		type: ''
+	},
+	{
+		name: 'Medallions of Roast Porq with Peppercorn Herb Gravy',
+		location: 'The Gentle Chef Holiday eCookbook p. 21',
+		type: ''
+	},
+	{
+		name: 'Prime Cut Roast Beaf with Quick Pan Gravy',
+		location: 'The Gentle Chef Holiday eCookbook p. 25',
+		type: ''
+	},
+	{
+		name: 'Yorkies (Yorkshire Pudding)',
+		location: 'The Gentle Chef Holiday eCookbook p. 29',
+		type: ''
+	},
+	{
+		name: 'Potatoes Dauphinoise',
+		location: 'The Gentle Chef Holiday eCookbook p. 31',
+		type: ''
+	},
+	{
+		name: 'Savory Oven-Roasted Sweet Potatoes',
+		location: 'The Gentle Chef Holiday eCookbook p. 33',
+		type: ''
+	},
+	{
+		name: 'Roasted Acorn Squash with Cumin-Scented Couscous Stuffing',
+		location: 'The Gentle Chef Holiday eCookbook p. 34',
+		type: ''
+	},
+	{
+		name: 'Green Beans with Sweet Onion and Savory, Sweet and Smoky Almonds',
+		location: 'The Gentle Chef Holiday eCookbook p. 36',
+		type: ''
+	},
+	{
+		name: 'Creamed Peas and Pearl Onions',
+		location: 'The Gentle Chef Holiday eCookbook p. 38',
+		type: ''
+	},
+	{
+		name: 'Whipped Potato and Parsnip Gratin',
+		location: 'The Gentle Chef Holiday eCookbook p. 39',
+		type: ''
+	},
+	{
+		name: 'Charred Brussels Sprouts Slaw with Shallots and Toasted Pine Nuts',
+		location: 'The Gentle Chef Holiday eCookbook p. 41',
+		type: ''
+	},
+	{
+		name: 'Butter Browned Brussels Sprouts with Cauliflower Cashew Cream',
+		location: 'The Gentle Chef Holiday eCookbook p. 43',
+		type: ''
+	},
+	{
+		name: 'Classic Pumpkin Pie',
+		location: 'The Gentle Chef Holiday eCookbook p. 44',
+		type: ''
+	},
+	{
+		name: 'Eggless Egg Custard Pie',
+		location: 'The Gentle Chef Holiday eCookbook p. 46',
+		type: ''
+	},
+	{
+		name: 'Whole Grain Bread Pudding with Drunken Raisins and Salted Caramel Sauce',
+		location: 'The Gentle Chef Holiday eCookbook p. 48 Classic ‘Nog 50 Pumpkin ‘Nog 51',
+		type: ''
+	},
+];
