@@ -2343,7 +2343,7 @@ var nonDairyEvolutionRecipes = [
 		type: 'dairy cheese'
 	},
 	{
-		name: 'Smoked Gouda, Spinach and Artichoke Drip',
+		name: 'Smoked Gouda, Spinach and Artichoke Dip',
 		location: 'Non-Dairy Evolution p. 76',
 		type: 'dairy cheese'
 	},
