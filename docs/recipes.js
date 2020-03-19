@@ -4340,3 +4340,129 @@ var theGentleChefHolidayCookbook = [{
 		type: ''
 	}
 ];
+var quitePossibleCookbook = [{
+		name: 'Golden Broth',
+		location: 'Quite Possible Cookbook p. 9',
+		type: 'incidentals'
+	},
+	{
+		name: 'Instant Golden Broth Powder',
+		location: 'Quite Possible Cookbook p. 10',
+		type: 'incidentals'
+	},
+	{
+		name: 'Aromatica',
+		location: 'Quite Possible Cookbook p. 11',
+		type: 'incidentals'
+	},
+	{
+		name: 'Vegan Gluten-Free Worcestershire Sauce',
+		location: 'Quite Possible Cookbook p. 11',
+		type: ''
+	},
+	{
+		name: 'Rice Preparation for Recipes',
+		location: 'Quite Possible Cookbook p. 12',
+		type: ''
+	},
+	{
+		name: 'Marbling Fat for Burgers and Sausages',
+		location: 'Quite Possible Cookbook p. 12',
+		type: ''
+	},
+	{
+		name: 'Sizzlin’ Burgers',
+		location: 'Quite Possible Cookbook p. 13',
+		type: ''
+	},
+	{
+		name: 'Salisbury Steak with Savory Onion Mushroom Gravy',
+		location: 'Quite Possible Cookbook p. 15',
+		type: ''
+	},
+	{
+		name: 'Meatball Stroganoff',
+		location: 'Quite Possible Cookbook p. 17',
+		type: ''
+	},
+	{
+		name: 'Savory No-Beef Broth',
+		location: 'Quite Possible Cookbook p. 19',
+		type: ''
+	},
+	{
+		name: 'Moroccan Meatball and Vegetable Ragoût',
+		location: 'Quite Possible Cookbook p. 20',
+		type: ''
+	},
+	{
+		name: 'Tamari Ginger Glazed Meatballs with Stir-Fried Vegetables and Rice Noodles 23 Albondigas Soup (Mexican Meatball Soup)',
+		location: 'Quite Possible Cookbook p. 26',
+		type: ''
+	},
+	{
+		name: 'Italian Wedding Soup',
+		location: 'Quite Possible Cookbook p. 29',
+		type: ''
+	},
+	{
+		name: 'Italian Meatballs with Marinara',
+		location: 'Quite Possible Cookbook p. 32',
+		type: ''
+	},
+	{
+		name: 'Indian Curried Meatballs',
+		location: 'Quite Possible Cookbook p. 35',
+		type: ''
+	},
+	{
+		name: 'Biryani (Indian Rice)',
+		location: 'Quite Possible Cookbook p. 37',
+		type: ''
+	},
+	{
+		name: 'Chef’s Best Meatloaf',
+		location: 'Quite Possible Cookbook p. 38',
+		type: ''
+	},
+	{
+		name: 'Afghani Kebab',
+		location: 'Quite Possible Cookbook p. 40',
+		type: ''
+	},
+	{
+		name: 'Afghani Kabuli Pulao (Afghani Rice Pilaf)',
+		location: 'Quite Possible Cookbook p. 42',
+		type: ''
+	},
+	{
+		name: 'Italian Sausage – Sausage Crumbles or Sausages with Casing',
+		location: 'Quite Possible Cookbook p. 43',
+		type: ''
+	},
+	{
+		name: 'Linguiça (Portuguese Sausages with Casing)',
+		location: 'Quite Possible Cookbook p. 47',
+		type: ''
+	},
+	{
+		name: 'Spanish Rice',
+		location: 'Quite Possible Cookbook p. 49',
+		type: ''
+	},
+	{
+		name: 'Kielbasa (Polish Sausages with Casing)',
+		location: 'Quite Possible Cookbook p. 50',
+		type: ''
+	},
+	{
+		name: 'Country-Style Sausage – Sausage Crumbles or Breakfast Sausage Patties',
+		location: ' Quite Possible Cookbook p. 53',
+		type: ''
+	},
+	{
+		name: 'Scrambled Eggz (Bonus Recipe using Vegan Eggz Essentials!)',
+		location: 'Quite Possible Cookbook p. 56',
+		type: ''
+	}
+];
