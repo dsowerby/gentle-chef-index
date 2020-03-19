@@ -4396,7 +4396,12 @@ var quitePossibleCookbook = [{
 		type: ''
 	},
 	{
-		name: 'Tamari Ginger Glazed Meatballs with Stir-Fried Vegetables and Rice Noodles 23 Albondigas Soup (Mexican Meatball Soup)',
+		name: 'Tamari Ginger Glazed Meatballs with Stir-Fried Vegetables and Rice Noodles',
+		location: 'Quite Possible Cookbook p. 23',
+		type: ''
+	},
+	{
+		name: 'Albondigas Soup (Mexican Meatball Soup)',
 		location: 'Quite Possible Cookbook p. 26',
 		type: ''
 	},
