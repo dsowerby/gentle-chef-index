@@ -4471,3 +4471,291 @@ var quitePossibleCookbook = [{
 		type: ''
 	}
 ];
+
+var gentleSeaCookbookRecipes = [
+    {
+        name: 'Scallopz',
+        location: 'Gentle Sea Cookbook p. 12',
+        type: ''
+    },
+    {
+        name: 'Jumbo Shrymp',
+        location: 'Gentle Sea Cookbook p. 18',
+        type: ''
+    },
+    {
+        name: 'Lobzter',
+        location: 'Gentle Sea Cookbook p. 20',
+        type: ''
+    },
+    {
+        name: 'Kalamari',
+        location: 'Gentle Sea Cookbook p. 22',
+        type: ''
+    },
+    {
+        name: 'Supreme Sour Cream (cultured) Sweet Clamz',
+        location: 'Gentle Sea Cookbook p. 25',
+        type: ''
+    },
+    {
+        name: 'Whitefysh Filets',
+        location: 'Gentle Sea Cookbook p. 27',
+        type: ''
+    },
+    {
+        name: 'Whitefysh Marinades',
+        location: 'Gentle Sea Cookbook p. 32',
+        type: ''
+    },
+    {
+        name: 'Gentle Bay Seasoning',
+        location: 'Gentle Sea Cookbook p. 34',
+        type: ''
+    },
+    {
+        name: 'Thai Clear Soup with Shrymp Totuna',
+        location: 'Gentle Sea Cookbook p. 35',
+        type: ''
+    },
+    {
+        name: 'Fried Sweet Clamz',
+        location: 'Gentle Sea Cookbook p. 37',
+        type: ''
+    },
+    {
+        name: 'Ceviche',
+        location: 'Gentle Sea Cookbook p. 39',
+        type: ''
+    },
+    {
+        name: 'Mock Lox',
+        location: 'Gentle Sea Cookbook p. 41',
+        type: ''
+    },
+    {
+        name: 'Oysterz Rockafella',
+        location: 'Gentle Sea Cookbook p. 43',
+        type: ''
+    },
+    {
+        name: 'Crispy Coconut Curry Jumbo Shrymp',
+        location: 'Gentle Sea Cookbook p. 45',
+        type: ''
+    },
+    {
+        name: 'Jack Crab Cakes',
+        location: 'Gentle Sea Cookbook p. 47',
+        type: ''
+    },
+    {
+        name: 'Watuna Sashimi',
+        location: 'Gentle Sea Cookbook p. 50',
+        type: ''
+    },
+    {
+        name: 'Golden Caviar',
+        location: 'Gentle Sea Cookbook p. 52',
+        type: ''
+    },
+    {
+        name: 'Hawaiian Poke',
+        location: 'Gentle Sea Cookbook p. 53',
+        type: ''
+    },
+    {
+        name: 'Fysh Roe',
+        location: 'Gentle Sea Cookbook p. 54',
+        type: ''
+    },
+    {
+        name: 'Artichoke Dip',
+        location: 'Gentle Sea Cookbook p. 56',
+        type: ''
+    },
+    {
+        name: 'Fumet (Seafood Broth)',
+        location: 'Gentle Sea Cookbook p. 58',
+        type: ''
+    },
+    {
+        name: 'Bouillabaisse',
+        location: 'Gentle Sea Cookbook p. 59',
+        type: ''
+    },
+    {
+        name: 'Lobzter Bisque',
+        location: 'Gentle Sea Cookbook p. 61',
+        type: ''
+    },
+    {
+        name: 'New England Clamz Chowdah',
+        location: 'Gentle Sea Cookbook p. 63',
+        type: ''
+    },
+    {
+        name: 'Totuna Salad',
+        location: 'Gentle Sea Cookbook p. 66',
+        type: ''
+    },
+    {
+        name: 'Lettuce Cups with Spicy Thai Peanut Sauce',
+        location: 'Gentle Sea Cookbook p. 67',
+        type: ''
+    },
+    {
+        name: 'Lobzter Rolls',
+        location: 'Gentle Sea Cookbook p. 68',
+        type: ''
+    },
+    {
+        name: 'Pan-Seared Scallopz Salad with Grapefruit, Fennel and Avocado',
+        location: 'Gentle Sea Cookbook p. 69',
+        type: ''
+    },
+    {
+        name: 'Marinated Kalamari and Orzo Salad',
+        location: 'Gentle Sea Cookbook p. 71',
+        type: ''
+    },
+    {
+        name: 'Island Shrymp Salad',
+        location: 'Gentle Sea Cookbook p. 73',
+        type: ''
+    },
+    {
+        name: 'Louie Salad',
+        location: 'Gentle Sea Cookbook p. 74',
+        type: ''
+    },
+    {
+        name: 'Scallopz with Thai Green Curry, Edamame and Carrots',
+        location: 'Gentle Sea Cookbook p. 75',
+        type: ''
+    },
+    {
+        name: 'Étouffée',
+        location: 'Gentle Sea Cookbook p. 77',
+        type: ''
+    },
+    {
+        name: 'Lobzter Newburg',
+        location: 'Gentle Sea Cookbook p. 79',
+        type: ''
+    },
+    {
+        name: 'Linguini with Clamz Sauce',
+        location: 'Gentle Sea Cookbook p. 81',
+        type: ''
+    },
+    {
+        name: 'Lobzter Thermidor',
+        location: 'Gentle Sea Cookbook p. 83',
+        type: ''
+    },
+    {
+        name: 'Pan-Grilled Whitefysh with Lemon Caper Sauce',
+        location: 'Gentle Sea Cookbook p. 85',
+        type: ''
+    },
+    {
+        name: 'Scampi',
+        location: 'Gentle Sea Cookbook p. 87',
+        type: ''
+    },
+    {
+        name: 'Whitefysh Provençale',
+        location: 'Gentle Sea Cookbook p. 89',
+        type: ''
+    },
+    {
+        name: 'Mediterranean Baked Shrymp with Herbed Feta',
+        location: 'Gentle Sea Cookbook p. 91',
+        type: ''
+    },
+    {
+        name: 'Golden Battered Whitefysh Filets',
+        location: 'Gentle Sea Cookbook p. 93',
+        type: ''
+    },
+    {
+        name: 'Classic Cocktail Sauce',
+        location: 'Gentle Sea Cookbook p. 94',
+        type: ''
+    },
+    {
+        name: 'Rémoulade Sauce',
+        location: 'Gentle Sea Cookbook p. 94',
+        type: ''
+    },
+    {
+        name: 'Asian Fysh Sauce',
+        location: 'Gentle Sea Cookbook p. 95',
+        type: ''
+    },
+    {
+        name: 'Indian Curry Simmering Sauce',
+        location: 'Gentle Sea Cookbook p. 96',
+        type: ''
+    },
+    {
+        name: 'Chef’s Best Alfredo Sauce',
+        location: 'Gentle Sea Cookbook p. 97',
+        type: ''
+    },
+    {
+        name: 'Creamy Horseradish Sauce',
+        location: 'Gentle Sea Cookbook p. 98',
+        type: ''
+    },
+    {
+        name: 'Tartar Sauce',
+        location: 'Gentle Sea Cookbook p. 98',
+        type: ''
+    },
+    {
+        name: 'Fire-Roasted Jalapeno and Lime Tartar Sauce',
+        location: 'Gentle Sea Cookbook p. 99',
+        type: ''
+    },
+    {
+        name: 'Island Teriyaki Sauce and Glaze',
+        location: 'Gentle Sea Cookbook p. 100',
+        type: ''
+    },
+    {
+        name: 'Chimichurri Sauce',
+        location: 'Gentle Sea Cookbook p. 101',
+        type: ''
+    },
+    {
+        name: 'Worcestershire Sauce',
+        location: 'Gentle Sea Cookbook p. 102',
+        type: ''
+    },
+    {
+        name: 'No-Eggy Mayo',
+        location: 'Gentle Sea Cookbook p. 103',
+        type: ''
+    },
+    {
+        name: 'Better Butter',
+        location: 'Gentle Sea Cookbook p. 105',
+        type: ''
+    },
+    {
+        name: 'Quick Sour Cream (uncultured)',
+        location: 'Gentle Sea Cookbook p. 108',
+        type: ''
+    },
+    {
+        name: 'Quick Greek-Style Yogurt (uncultured)',
+        location: 'Gentle Sea Cookbook p. 109',
+        type: ''
+    },
+    {
+        name: 'Mediterranean Herbed Feta',
+        location: 'Gentle Sea Cookbook p. 110',
+        type: ''
+    }
+];
