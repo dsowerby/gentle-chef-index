@@ -1276,7 +1276,7 @@ var cookAndLetLiveRecipes = [{
 ];
 
 var seitanAndBeyondRecipes = [{
-		name: 'Worcestshire Sauce',
+		name: 'Worcestershire Sauce',
 		location: 'Seitan and Beyond p. 25',
 		type: 'essentials incidentals'},
 	{
