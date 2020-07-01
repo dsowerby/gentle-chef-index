@@ -476,7 +476,7 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Watuna Sashimi',
 		location: 'Cook & Let Live p. 165',
-		type: 'seafood'
+		type: 'seafood watermelon'
 	},
 	{
 		name: 'Soymilk',
@@ -4476,286 +4476,286 @@ var gentleSeaCookbookRecipes = [
     {
         name: 'Scallopz',
         location: 'Gentle Sea Cookbook p. 12',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Jumbo Shrymp',
         location: 'Gentle Sea Cookbook p. 18',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lobzter',
         location: 'Gentle Sea Cookbook p. 20',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Kalamari',
         location: 'Gentle Sea Cookbook p. 22',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Supreme Sour Cream (cultured) Sweet Clamz',
         location: 'Gentle Sea Cookbook p. 25',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Whitefysh Filets',
         location: 'Gentle Sea Cookbook p. 27',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Whitefysh Marinades',
         location: 'Gentle Sea Cookbook p. 32',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Gentle Bay Seasoning',
         location: 'Gentle Sea Cookbook p. 34',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Thai Clear Soup with Shrymp Totuna',
         location: 'Gentle Sea Cookbook p. 35',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Fried Sweet Clamz',
         location: 'Gentle Sea Cookbook p. 37',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Ceviche',
         location: 'Gentle Sea Cookbook p. 39',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Mock Lox',
         location: 'Gentle Sea Cookbook p. 41',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Oysterz Rockafella',
         location: 'Gentle Sea Cookbook p. 43',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Crispy Coconut Curry Jumbo Shrymp',
         location: 'Gentle Sea Cookbook p. 45',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Jack Crab Cakes',
         location: 'Gentle Sea Cookbook p. 47',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Watuna Sashimi',
         location: 'Gentle Sea Cookbook p. 50',
-        type: ''
+        type: 'seafood watermelon'
     },
     {
         name: 'Golden Caviar',
         location: 'Gentle Sea Cookbook p. 52',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Hawaiian Poke',
         location: 'Gentle Sea Cookbook p. 53',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Fysh Roe',
         location: 'Gentle Sea Cookbook p. 54',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Artichoke Dip',
         location: 'Gentle Sea Cookbook p. 56',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Fumet (Seafood Broth)',
         location: 'Gentle Sea Cookbook p. 58',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Bouillabaisse',
         location: 'Gentle Sea Cookbook p. 59',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lobzter Bisque',
         location: 'Gentle Sea Cookbook p. 61',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'New England Clamz Chowdah',
         location: 'Gentle Sea Cookbook p. 63',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Totuna Salad',
         location: 'Gentle Sea Cookbook p. 66',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lettuce Cups with Spicy Thai Peanut Sauce',
         location: 'Gentle Sea Cookbook p. 67',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lobzter Rolls',
         location: 'Gentle Sea Cookbook p. 68',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Pan-Seared Scallopz Salad with Grapefruit, Fennel and Avocado',
         location: 'Gentle Sea Cookbook p. 69',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Marinated Kalamari and Orzo Salad',
         location: 'Gentle Sea Cookbook p. 71',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Island Shrymp Salad',
         location: 'Gentle Sea Cookbook p. 73',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Louie Salad',
         location: 'Gentle Sea Cookbook p. 74',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Scallopz with Thai Green Curry, Edamame and Carrots',
         location: 'Gentle Sea Cookbook p. 75',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Étouffée',
         location: 'Gentle Sea Cookbook p. 77',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lobzter Newburg',
         location: 'Gentle Sea Cookbook p. 79',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Linguini with Clamz Sauce',
         location: 'Gentle Sea Cookbook p. 81',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Lobzter Thermidor',
         location: 'Gentle Sea Cookbook p. 83',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Pan-Grilled Whitefysh with Lemon Caper Sauce',
         location: 'Gentle Sea Cookbook p. 85',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Scampi',
         location: 'Gentle Sea Cookbook p. 87',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Whitefysh Provençale',
         location: 'Gentle Sea Cookbook p. 89',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Mediterranean Baked Shrymp with Herbed Feta',
         location: 'Gentle Sea Cookbook p. 91',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Golden Battered Whitefysh Filets',
         location: 'Gentle Sea Cookbook p. 93',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Classic Cocktail Sauce',
         location: 'Gentle Sea Cookbook p. 94',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Rémoulade Sauce',
         location: 'Gentle Sea Cookbook p. 94',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Asian Fysh Sauce',
         location: 'Gentle Sea Cookbook p. 95',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Indian Curry Simmering Sauce',
         location: 'Gentle Sea Cookbook p. 96',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Chef’s Best Alfredo Sauce',
         location: 'Gentle Sea Cookbook p. 97',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Creamy Horseradish Sauce',
         location: 'Gentle Sea Cookbook p. 98',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Tartar Sauce',
         location: 'Gentle Sea Cookbook p. 98',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Fire-Roasted Jalapeno and Lime Tartar Sauce',
         location: 'Gentle Sea Cookbook p. 99',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Island Teriyaki Sauce and Glaze',
         location: 'Gentle Sea Cookbook p. 100',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Chimichurri Sauce',
         location: 'Gentle Sea Cookbook p. 101',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Worcestershire Sauce',
         location: 'Gentle Sea Cookbook p. 102',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'No-Eggy Mayo',
         location: 'Gentle Sea Cookbook p. 103',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Better Butter',
         location: 'Gentle Sea Cookbook p. 105',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Quick Sour Cream (uncultured)',
         location: 'Gentle Sea Cookbook p. 108',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Quick Greek-Style Yogurt (uncultured)',
         location: 'Gentle Sea Cookbook p. 109',
-        type: ''
+        type: 'seafood'
     },
     {
         name: 'Mediterranean Herbed Feta',
         location: 'Gentle Sea Cookbook p. 110',
-        type: ''
+        type: 'seafood'
     }
 ];
