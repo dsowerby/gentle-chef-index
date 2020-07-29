@@ -4759,3 +4759,161 @@ var gentleSeaCookbookRecipes = [
         type: 'seafood'
     }
 ];
+
+var whatsCookinRecipes = [
+    {
+        name: 'Teriyaki Peppered Beaf Jurky',
+        location: 'What’s Cookin’ p. 3',
+        type: ''
+    },
+    {
+        name: 'Canadian Poutine',
+        location: 'What’s Cookin’ p. 6',
+        type: ''
+    },
+    {
+        name: 'Poutine Gravy Cheese',
+        location: 'What’s Cookin’ p. 7',
+        type: ''
+    },
+    {
+        name: 'Curds',
+        location: 'What’s Cookin’ p. 8',
+        type: ''
+    },
+    {
+        name: 'Zesty Refried Bean Dip and Spread',
+        location: 'What’s Cookin’ p. 9',
+        type: ''
+    },
+    {
+        name: 'Chef’s Favorite Mexican Chikun Mole',
+        location: 'What’s Cookin’ p. 10',
+        type: ''
+    },
+    {
+        name: 'Mexican Cotija Cheese',
+        location: 'What’s Cookin’ p. 12',
+        type: ''
+    },
+    {
+        name: 'Mexican Corn Salad',
+        location: 'What’s Cookin’ p. 13',
+        type: ''
+    },
+    {
+        name: 'Chili Relleno Casserole',
+        location: 'What’s Cookin’ p. 15',
+        type: ''
+    },
+    {
+        name: 'Rajas con Crema (Roasted Poblano Peppers in Cream Sauce)',
+        location: 'What’s Cookin’ p. 18',
+        type: ''
+    },
+    {
+        name: 'Easy Cultured Sour Cream',
+        location: 'What’s Cookin’ p. 19',
+        type: ''
+    },
+    {
+        name: 'Chikun Cacciatore',
+        location: 'What’s Cookin’ p. 20',
+        type: ''
+    },
+    {
+        name: 'Hungarian Chikun Paprikash',
+        location: 'What’s Cookin’ p. 22',
+        type: ''
+    },
+    {
+        name: 'Chinese Garlicky Cashew Chikun',
+        location: 'What’s Cookin’ p. 24',
+        type: ''
+    },
+    {
+        name: 'Tebasaki, Nagoya-Style (Japanese Fried Chikun with Special Sauce) 26 Mapo Tofu',
+        location: 'What’s Cookin’ p. 28',
+        type: ''
+    },
+    {
+        name: 'Korean BBQ Tempeh Buddha Bowl',
+        location: 'What’s Cookin’ p. 30',
+        type: ''
+    },
+    {
+        name: 'Chinese Shrymp Toast',
+        location: 'What’s Cookin’ p. 32',
+        type: ''
+    },
+    {
+        name: 'Thai House Salad and Dressing',
+        location: 'What’s Cookin’ p. 35',
+        type: ''
+    },
+    {
+        name: 'Syrian Muhammara',
+        location: 'What’s Cookin’ p. 36',
+        type: ''
+    },
+    {
+        name: 'Corned Beet Reubens with Russian Dressing',
+        location: 'What’s Cookin’ p. 38',
+        type: ''
+    },
+    {
+        name: 'Spaghetti alla Carbonara',
+        location: 'What’s Cookin’ p. 40',
+        type: ''
+    },
+    {
+        name: 'African Peanut Stew',
+        location: 'What’s Cookin’ p. 42',
+        type: ''
+    },
+    {
+        name: 'Pennsylvania Dutch Seasoned Cabbage Steaks',
+        location: 'What’s Cookin’ p. 43',
+        type: ''
+    },
+    {
+        name: 'Cheddar Chive Buttermilk Drop Biscuits',
+        location: 'What’s Cookin’ p. 44',
+        type: ''
+    },
+    {
+        name: 'No-Bake Cheesecake',
+        location: 'What’s Cookin’ p. 46',
+        type: ''
+    },
+    {
+        name: 'Devonshire Cream',
+        location: 'What’s Cookin’ p. 48',
+        type: ''
+    },
+    {
+        name: 'Scones',
+        location: 'What’s Cookin’ p. 50',
+        type: ''
+    },
+    {
+        name: 'Strawberry Shortcake',
+        location: 'What’s Cookin’ p. 52',
+        type: ''
+    },
+    {
+        name: 'Whipped Cream',
+        location: 'What’s Cookin’ p. 54',
+        type: ''
+    },
+    {
+        name: 'Chef’s Cinnamon Sweet Rolls',
+        location: 'What’s Cookin’ p. 56',
+        type: ''
+    },
+    {
+        name: 'Supplemental Recipe: Cultured Yogurt (Soy Milk or Almond Milk)',
+        location: 'What’s Cookin’ p. 58',
+        type: ''
+    }
+];
