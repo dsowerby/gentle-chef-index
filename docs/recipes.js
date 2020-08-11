@@ -4772,7 +4772,7 @@ var whatsCookinRecipes = [
         type: ''
     },
     {
-        name: 'Poutine Gravy Cheese',
+        name: 'Poutine Gravy',
         location: 'Whats Cookin p. 7',
         type: ''
     },
