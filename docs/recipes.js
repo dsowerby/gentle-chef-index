@@ -4777,7 +4777,7 @@ var whatsCookinRecipes = [
         type: ''
     },
     {
-        name: 'Curds',
+        name: 'Cheese Curds',
         location: 'Whats Cookin p. 8',
         type: ''
     },
