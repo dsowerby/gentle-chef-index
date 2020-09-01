@@ -696,7 +696,7 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Melty Mozzarella',
 		location: 'Cook & Let Live p. 217',
-		type: 'cheese cheeze cheez'
+		type: 'cheese cheeze cheez motzerella mozzarella'
 	},
 	{
 		name: 'Crock Beer Cheese',
@@ -1011,7 +1011,7 @@ var cookAndLetLiveRecipes = [{
 	{
 		name: 'Fried Mozzarella Sticks',
 		location: 'Cook & Let Live p. 293',
-		type: 'cheese cheeze cheez'
+		type: 'cheese cheeze cheez motzerella mozzarella'
 	},
 	{
 		name: 'Cheese Jalapeno Popper Dip',
@@ -2210,37 +2210,37 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'Chèvre',
 		location: 'Non-Dairy Evolution p. 46',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Peppercorn Chèvre',
 		location: 'Non-Dairy Evolution p. 47',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Chèvre with Fines Herbes',
 		location: 'Non-Dairy Evolution p. 47',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Chèvre with Mulled Wine Swirl',
 		location: 'Non-Dairy Evolution p. 48',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Chèvre with Rosemary Balsamic Swirl',
 		location: 'Non-Dairy Evolution p. 49',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'White Cheddar Amandine',
 		location: 'Non-Dairy Evolution p. 50',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Extra-Sharp White Cheddar',
 		location: 'Non-Dairy Evolution p. 51',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Bleu Cheese',
@@ -2260,72 +2260,72 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'Block and Wheel Cheeses',
 		location: 'Non-Dairy Evolution p. 54',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Block and Wheel Cheeses : An Introduction',
 		location: 'Non-Dairy Evolution p. 54',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Block and Wheel Cheeses : Preparation and Cooking Technique',
 		location: 'Non-Dairy Evolution p. 57',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Block and Wheel Cheeses : Troubleshooting Tips',
 		location: 'Non-Dairy Evolution p. 59',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze '
 	},
 	{
 		name: 'Mozzarella di Tuscano',
 		location: 'Non-Dairy Evolution p. 63',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze motzerella mozzarella'
 	},
 	{
 		name: 'Mozzarella di Campana',
 		location: 'Non-Dairy Evolution p. 64',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze motzerella mozzarella'
 	},
 	{
 		name: 'Mozzarella Fresco',
 		location: 'Non-Dairy Evolution p. 65',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze motzerella mozzarella'
 	},
 	{
 		name: 'Insalata Mozzarella Fresco',
 		location: 'Non-Dairy Evolution p. 66',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheez motzerella mozzarella'
 	},
 	{
 		name: 'Pizza Margherita',
 		location: 'Non-Dairy Evolution p. 67',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Provolone Affumicata (Smoked Provolone)',
 		location: 'Non-Dairy Evolution p. 68',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'French Brie and Camembert',
 		location: 'Non-Dairy Evolution p. 69',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Brie (or Camembert) en Croûte with with Caramelized Mushrooms and Onion',
 		location: 'Non-Dairy Evolution p. 70',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Pepper Jack',
 		location: 'Non-Dairy Evolution p. 71',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Dill Havarti',
 		location: 'Non-Dairy Evolution p. 72',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Suisse',
@@ -2335,57 +2335,57 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'Muenster',
 		location: 'Non-Dairy Evolution p. 74',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Smoked Gouda',
 		location: 'Non-Dairy Evolution p. 75',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Smoked Gouda, Spinach and Artichoke Dip',
 		location: 'Non-Dairy Evolution p. 76',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Golden Cheddar',
 		location: 'Non-Dairy Evolution p. 77',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Broccoli Cheddar Soup',
 		location: 'Non-Dairy Evolution p. 78',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Golden Stock',
 		location: 'Non-Dairy Evolution p. 79',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Americana',
 		location: 'Non-Dairy Evolution p. 80',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Potato Cheese Soup',
 		location: 'Non-Dairy Evolution p. 81',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Gloucester with Onions and Chives',
 		location: 'Non-Dairy Evolution p. 82',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Tofu-Based Cheeses',
 		location: 'Non-Dairy Evolution p. 83',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Sharp Tofu Cheddar',
 		location: 'Non-Dairy Evolution p. 83',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Mediterranean Herbed Feta',
@@ -2455,37 +2455,37 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'Miscellaneous Cheeses',
 		location: 'Non-Dairy Evolution p. 97',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Hard Parmesan',
 		location: 'Non-Dairy Evolution p. 97',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Garlic Parmesan Crostini',
 		location: 'Non-Dairy Evolution p. 98',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Risotto Parmesan',
 		location: 'Non-Dairy Evolution p. 98',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Grated Parmesan',
 		location: 'Non-Dairy Evolution p. 99',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Italian Mascarpone',
 		location: 'Non-Dairy Evolution p. 100',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Cheese Sauces',
 		location: 'Non-Dairy Evolution p. 101',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Golden Mac\' and Cheese',
@@ -2495,42 +2495,42 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'Scalloped Potatoes Gratin',
 		location: 'Non-Dairy Evolution p. 103',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Sauce Fromage Blanc',
 		location: 'Non-Dairy Evolution p. 104',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Potatoe Duphinoise',
 		location: 'Non-Dairy Evolution p. 105',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Mornay Sauce',
 		location: 'Non-Dairy Evolution p. 106',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Queso Nacho Sauce',
 		location: 'Non-Dairy Evolution p. 107',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Queso Blanco Sauce',
 		location: 'Non-Dairy Evolution p. 108',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Salsa con Queso',
 		location: 'Non-Dairy Evolution p. 109',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Cheese Melts',
 		location: 'Non-Dairy Evolution p. 110',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Colby Melt',
@@ -2585,37 +2585,37 @@ var nonDairyEvolutionRecipes = [
 	{
 		name: 'French Onion Soup',
 		location: 'Non-Dairy Evolution p. 120',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Brown Stock',
 		location: 'Non-Dairy Evolution p. 121',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Fondue',
 		location: 'Non-Dairy Evolution p. 122',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Non-Dairy Seasoning Blends',
 		location: 'Non-Dairy Evolution p. 123',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Instant Cheddar Cheese Sauce Mix',
 		location: 'Non-Dairy Evolution p. 123',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Nacho Cheese No\'ritos Seasoning',
 		location: 'Non-Dairy Evolution p. 124',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Cool Buttermilk Ranch No\'ritos Seasoning',
 		location: 'Non-Dairy Evolution p. 125',
-		type: 'dairy cheese'
+		type: 'dairy cheese cheeze'
 	},
 	{
 		name: 'Eggless Egg Specialties',
@@ -3033,7 +3033,7 @@ var theGentleChefCookbookRecipes = [
 	{
 		name: 'Fresh Nut Motzerella',
 		location: 'The Gentle Chef Cookbook p. 73',
-		type: 'dairy mozerella cheese'
+		type: 'dairy cheese cheeze motzerella mozzarella'
 	},
 	{
 		name: 'Crumbly Block Feta',
