@@ -1842,7 +1842,7 @@ var seitanAndBeyondRecipes = [{
 	{
 		name: 'Fire-Roasted Jalapeno and Lime Tartar Sauce',
 		location: 'Seitan and Beyond p. 171',
-		type: 'surf'
+		type: 'surf tartare'
 	},
 	{
 		name: 'New England Clamz Chowdah',
