@@ -41,6 +41,14 @@
 		outline:none;
 		border-color:#aaa;
 	}
+	.sort-by {
+		display: inline-block;
+	}
+	@media (max-width: 300px) {
+		.sort-by {
+			clear: left;
+		}
+	}
 	.sort {
 		padding:8px 12px;
 		border-radius: 6px;
@@ -133,9 +141,11 @@
 		this page does not contain any recipes, so if you want them just go and buy the book - it's worth every penny!</p>
 	<div id="recipes">
 		<input class="search" placeholder="Search" />
-		<br />Sort by:
-		<button class="sort" data-sort="name">name</button>
-		<button class="sort" data-sort="location">book</button>
+		<div class="sort-by">
+			Sort by:
+			<button class="sort" data-sort="name">name</button>
+			<button class="sort" data-sort="location">book</button>
+		</div>
 	
 		<ul class="list"></ul>
 	</div>
