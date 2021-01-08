@@ -123,7 +123,12 @@
 			.concat(quitePossibleCookbook)
 			.concat(gentleSeaCookbookRecipes)
 			.concat(whatsCookinRecipes);
-			var userList = new List('recipes', options, recipes);
+			var recipeList = new List('recipes', options, recipes);
+			if (window.location.search != null) {
+				var query = new URLSearchParams(window.location.search).get('query');
+				recipeList.search(query);
+				$('.search').val(query);
+			}
 		});
 	</script>
 </head>
