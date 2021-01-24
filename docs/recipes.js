@@ -1360,7 +1360,7 @@ var seitanAndBeyondRecipes = [{
 		type: 'seasoning blends'
 	},
 	{
-		name: 'Cajun Dry Run',
+		name: 'Cajun Dry Rub',
 		location: 'Seitan and Beyond p. 36',
 		type: 'seasoning blends'
 	},
