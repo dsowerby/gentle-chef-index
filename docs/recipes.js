@@ -5028,4 +5028,179 @@ var craftingSeitanRecipes = [
 		location: 'Crafting Seitan p. 53',
 		type: 'chicken chickun'
 	},
+	{
+		name: 'Basic Beaf Dough',
+		location: 'Crafting Seitan p. 55',
+		type: 'beef'
+	},
+	{
+		name: 'Beaf Simmering Broth',
+		location: 'Crafting Seitan p. 56',
+		type: 'beef'
+	},
+	{
+		name: 'Steak Medallions, Cutlets, or Bites',
+		location: 'Crafting Seitan p. 57',
+		type: 'beef beaf'
+	},
+	{
+		name: 'Pan-Glazed Steak Medallions or Bites',
+		location: 'Crafting Seitan p. 59',
+		type: 'beef'
+	},
+	{
+		name: 'Steak en Brochette (shish kebab)',
+		location: 'Crafting Seitan p. 60',
+		type: 'beef kebob'
+	},
+	{
+		name: 'Steak Diane',
+		location: 'Crafting Seitan p. 62',
+		type: 'beef'
+	},
+	{
+		name: 'Steak Medici',
+		location: 'Crafting Seitan p. 64',
+		type: 'beef'
+	},
+	{
+		name: 'Steak au Poivre',
+		location: 'Crafting Seitan p. 65',
+		type: 'beef'
+	},
+	{
+		name: 'Beaf Kushiyaki (Japanese Skewered Grilled Beaf)',
+		location: 'Crafting Seitan p. 66',
+		type: 'beef'
+	},
+	{
+		name: 'Prime Cut Beaf (with quick pan gravy)',
+		location: 'Crafting Seitan p. 68',
+		type: 'beef'
+	},
+	{
+		name: 'Sauerbraten',
+		location: 'Crafting Seitan p. 71',
+		type: 'beef'
+	},
+	{
+		name: 'Beaf Brisket',
+		location: 'Crafting Seitan p. 74',
+		type: 'beef'
+	},
+	{
+		name: 'Spicy Thai Beaf Salad',
+		location: 'Crafting Seitan p. 76',
+		type: 'beef'
+	},
+	{
+		name: 'Chinese Pepper Beaf',
+		location: 'Crafting Seitan p. 79',
+		type: 'beef'
+	},
+	{
+		name: 'Beaf Crumbles',
+		location: 'Crafting Seitan p. 81',
+		type: 'beef'
+	},
+	{
+		name: 'Classic Pot Roast',
+		location: 'Crafting Seitan p. 83',
+		type: 'beef beaf'
+	},
+	{
+		name: 'Corned Beaf',
+		location: 'Crafting Seitan p. 84',
+		type: 'beef'
+	},
+	{
+		name: 'Deli-Style Pastrami',
+		location: 'Crafting Seitan p. 89',
+		type: 'beef'
+	},
+	{
+		name: 'Basic Porq Dough',
+		location: 'Crafting Seitan p. 92',
+		type: 'pork'
+	},
+	{
+		name: 'Porq Simmering Broth',
+		location: 'Crafting Seitan p. 93',
+		type: 'pork'
+	},
+	{
+		name: 'Porq Chops or Cutlets',
+		location: 'Crafting Seitan p. 94',
+		type: 'pork'
+	},
+	{
+		name: 'Citrus or Balsamic-Glazed Chops',
+		location: 'Crafting Seitan p. 97',
+		type: 'pork'
+	},
+	{
+		name: 'Schnitzel',
+		location: 'Crafting Seitan p. 98',
+		type: 'pork'
+	},
+	{
+		name: 'Tonkatsu',
+		location: 'Crafting Seitan p. 100',
+		type: 'pork'
+	},
+	{
+		name: 'Pulled Porq',
+		location: 'Crafting Seitan p. 102',
+		type: 'pork'
+	},
+	{
+		name: 'Barbecue and Teriyaki Pulled Porq',
+		location: 'Crafting Seitan p. 104',
+		type: 'pork'
+	},
+	{
+		name: 'Cuban-Style Pulled Porq',
+		location: 'Crafting Seitan p. 105',
+		type: 'pork'
+	},
+	{
+		name: 'Carnitas (Mexican-Style Pulled Porq)',
+		location: 'Crafting Seitan p. 106',
+		type: 'pork'
+	},
+	{
+		name: 'Polynesian Pulled Porq',
+		location: 'Crafting Seitan p. 107',
+		type: 'pork'
+	},
+	{
+		name: 'Chili Verde',
+		location: 'Crafting Seitan p. 108',
+		type: 'pork'
+	},
+	{
+		name: 'Country-Style Ribz and Rack Ribz',
+		location: 'Crafting Seitan p. 109',
+		type: 'pork ribs'
+	},
+	{
+		name: 'Sweet-and-Smoky Bacun',
+		location: 'Crafting Seitan p. 112',
+		type: 'pork'
+	},
+	{
+		name: 'Garden Ham',
+		location: 'Crafting Seitan p. 115',
+		type: 'pork'
+	},
+	{
+		name: 'Glazed Ham',
+		location: 'Crafting Seitan p. 117',
+		type: 'pork'
+	},
+	{
+		name: 'Split Pea Soup with Garden Ham',
+		location: 'Crafting Seitan p. 118',
+		type: 'pork'
+	},
 ];
