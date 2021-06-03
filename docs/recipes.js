@@ -4917,3 +4917,30 @@ var whatsCookinRecipes = [
         type: ''
     }
 ];
+var craftingSeitanRecipes = [
+	{
+		name: 'Basic Chikun Dough',
+		location: 'Crafting Seitan p. 14',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Simmering Broth',
+		location: 'Crafting Seitan p. 16',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Cutlets, Tenders, or Nuggets',
+		location: 'Crafting Seitan p. 18',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Souvlaki',
+		location: 'Crafting Seitan p. 20',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Drumsticks or Drumettes',
+		location: 'Crafting Seitan p. 22',
+		type: 'chicken chickun'
+	},
+];
