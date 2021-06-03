@@ -4943,4 +4943,89 @@ var craftingSeitanRecipes = [
 		location: 'Crafting Seitan p. 22',
 		type: 'chicken chickun'
 	},
+	{
+		name: 'Chikun Piccata',
+		location: 'Crafting Seitan p. 24',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Drumsticks or Drumettes',
+		location: 'Crafting Seitan p. 22',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Chikun Yakitori',
+		location: 'Crafting Seitan p. 27',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Seasoned Breaded Fried Chikun',
+		location: 'Crafting Seitan p. 28',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Indian Butter Chikun',
+		location: 'Crafting Seitan p. 30',
+		type: 'chicken chickun curry'
+	},
+	{
+		name: 'Kung Pao Chikun',
+		location: 'Crafting Seitan p. 32',
+		type: 'chicken chickun chinese'
+	},
+	{
+		name: 'Thai Green Curry',
+		location: 'Crafting Seitan p. 33',
+		type: 'chicken chickun chikun'
+	},
+	{
+		name: 'Tandoori Chikun',
+		location: 'Crafting Seitan p. 34',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Ethiopian Chikun',
+		location: 'Crafting Seitan p. 37',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Korean Buffalo-Style Chikun Drumettes',
+		location: 'Crafting Seitan p. 38',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Whole Roast Chikun',
+		location: 'Crafting Seitan p. 40',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Shredded Chikun',
+		location: 'Crafting Seitan p. 44 ',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Tex-Mex Shredded Chikun',
+		location: 'Crafting Seitan p. 47',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Barbecue or Teriyaki Shredd Chikun',
+		location: 'Crafting Seitan p. 48',
+		type: 'chicken chickun bbq'
+	},
+	{
+		name: 'Chikun and Vegetable Stir-Fry',
+		location: 'Crafting Seitan p. 49',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Triple-Dip Battered Chikun',
+		location: 'Crafting Seitan p. 50',
+		type: 'chicken chickun'
+	},
+	{
+		name: 'Mediterranean Chikun',
+		location: 'Crafting Seitan p. 53',
+		type: 'chicken chickun'
+	},
 ];
