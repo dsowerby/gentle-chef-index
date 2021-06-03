@@ -5203,4 +5203,254 @@ var craftingSeitanRecipes = [
 		location: 'Crafting Seitan p. 118',
 		type: 'pork'
 	},
+	{
+		name: 'Holiday Roast Turky',
+		location: 'Crafting Seitan p. 120',
+		type: 'turkey'
+	},
+	{
+		name: 'Turky Simmering Broth',
+		location: 'Crafting Seitan p. 123',
+		type: 'turkey'
+	},
+	{
+		name: 'Greek Gyros Roast',
+		location: 'Crafting Seitan p. 125',
+		type: 'pork porq'
+	},
+	{
+		name: 'New-Fashioned Meatloaf',
+		location: 'Crafting Seitan p. 127',
+		type: 'pork porq'
+	},
+	{
+		name: 'Grillin\' Burgers',
+		location: 'Crafting Seitan p. 131',
+		type: 'beaf beef'
+	},
+	{
+		name: 'Meatballs',
+		location: 'Crafting Seitan p. 133',
+		type: 'beaf beef'
+	},
+	{
+		name: 'Deli-Style Smoky Turky',
+		location: 'Crafting Seitan p. 136',
+		type: 'turkey'
+	},
+	{
+		name: '"Sweet" or "Hot" Italian Sausages',
+		location: 'Crafting Seitan p. 142',
+		type: 'pork porq'
+	},
+	{
+		name: 'Bavarian Bratwurst',
+		location: 'Crafting Seitan p. 145',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'Frankfurters',
+		location: 'Crafting Seitan p. 146',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'Andouille Sausage',
+		location: 'Crafting Seitan p. 147',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'British Bangers',
+		location: 'Crafting Seitan p. 148',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'Chikun-Apple Sausage',
+		location: 'Crafting Seitan p. 149',
+		type: 'chicken'
+	},
+	{
+		name: 'Polska Kielbasa',
+		location: 'Crafting Seitan p. 150',
+		type: 'sausage pork porq polish'
+	},
+	{
+		name: 'Maple-Sage Sausage Links',
+		location: 'Crafting Seitan p. 151',
+		type: 'pork porq'
+	},
+	{
+		name: 'Breakfast Sasuage Patties',
+		location: 'Crafting Seitan p. 152',
+		type: 'pork porq'
+	},
+	{
+		name: 'Pepperoni',
+		location: 'Crafting Seitan p. 155',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'Hard Salami',
+		location: 'Crafting Seitan p. 157',
+		type: 'sausage pork porq'
+	},
+	{
+		name: 'Aromatica',
+		location: 'Crafting Seitan p. 161',
+		type: 'spices'
+	},
+	{
+		name: 'Berbere Spice Blend',
+		location: 'Crafting Seitan p. 161',
+		type: ''
+	},
+	{
+		name: 'Garam Masala (Indian Spice Blend)',
+		location: 'Crafting Seitan p. 162',
+		type: ''
+	},
+	{
+		name: 'Montreal Seasoning',
+		location: 'Crafting Seitan p. 162',
+		type: 'spices'
+	},
+	{
+		name: 'Jamaican Jerk Spice',
+		location: 'Crafting Seitan p. 163',
+		type: ''
+	},
+	{
+		name: 'Cajun Dry Rub',
+		location: 'Crafting Seitan p. 164',
+		type: 'spices'
+	},
+	{
+		name: 'Savory Onion Gravy',
+		location: 'Crafting Seitan p. 166',
+		type: 'sauce'
+	},
+	{
+		name: 'Hearty Brown Gravy',
+		location: 'Crafting Seitan p. 167',
+		type: 'sauce'
+	},
+	{
+		name: 'Jus',
+		location: 'Crafting Seitan p. 168',
+		type: 'sauce'
+	},
+	{
+		name: 'Golden Gravy',
+		location: 'Crafting Seitan p. 169',
+		type: 'sauce'
+	},
+	{
+		name: 'Amber Waves of Gravy',
+		location: 'Crafting Seitan p. 170',
+		type: 'sauce'
+	},
+	{
+		name: 'Mushroom Gravy',
+		location: 'Crafting Seitan p. 171',
+		type: 'sauce'
+	},
+	{
+		name: 'Peppercorn-Herb Gravy',
+		location: 'Crafting Seitan p. 172',
+		type: 'sauce'
+	},
+	{
+		name: 'Golden Cheddar Sauce',
+		location: 'Crafting Seitan p. 173',
+		type: ''
+	},
+	{
+		name: 'Chef\'s Best Alfredo Sauce',
+		location: 'Crafting Seitan p. 174',
+		type: 'sauce'
+	},
+	{
+		name: 'Horsey Sauce',
+		location: 'Crafting Seitan p. 175',
+		type: 'sauce'
+	},
+	{
+		name: 'Greek Tzatiki Sauce',
+		location: 'Crafting Seitan p. 175',
+		type: 'sauce'
+	},
+	{
+		name: 'Chimichurri Sauce',
+		location: 'Crafting Seitan p. 176',
+		type: 'sauce'
+	},
+	{
+		name: 'Tangy Barbecue Sauce',
+		location: 'Crafting Seitan p. 177',
+		type: 'sauce'
+	},
+	{
+		name: 'Barbacoa Sauce',
+		location: 'Crafting Seitan p. 178',
+		type: 'sauce'
+	},
+	{
+		name: 'Island Teriyaki Sauce and Glaze',
+		location: 'Crafting Seitan p. 179',
+		type: 'sauce'
+	},
+	{
+		name: 'Char Siu Glaze',
+		location: 'Crafting Seitan p. 180',
+		type: 'sauce'
+	},
+	{
+		name: 'Worcestershire Sauce',
+		location: 'Crafting Seitan p. 182',
+		type: 'sauce'
+	},
+	{
+		name: 'Instant Chickun Bouillon Powder',
+		location: 'Crafting Seitan p. 183',
+		type: 'sauce stock'
+	},
+	{
+		name: 'Better Butter',
+		location: 'Crafting Seitan p. 184',
+		type: ''
+	},
+	{
+		name: 'Seasoned Butter',
+		location: 'Crafting Seitan p. 185',
+		type: ''
+	},
+	{
+		name: 'No-Eggy Mayo',
+		location: 'Crafting Seitan p. 186',
+		type: 'sauce'
+	},
+	{
+		name: 'Soy Cream',
+		location: 'Crafting Seitan p. 187',
+		type: ''
+	},
+	{
+		name: 'Instant Sour Cream',
+		location: 'Crafting Seitan p. 188',
+		type: ''
+	},
+	{
+		name: 'Light Cashew Cream',
+		location: 'Crafting Seitan p. 189',
+		type: ''
+	},
+	{
+		name: 'Quick Buttermilk',
+		location: 'Crafting Seitan p. 189',
+		type: ''
+	},
+	{
+		name: 'Buttermilk Ranch Dressing',
+		location: 'Crafting Seitan p. 190',
+		type: 'sauce'
+	},
 ];
