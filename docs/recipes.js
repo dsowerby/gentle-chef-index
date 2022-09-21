@@ -5454,3 +5454,40 @@ var craftingSeitanRecipes = [
 		type: 'sauce'
 	},
 ];
+var veganAndSweetRecipes = [
+	{
+		name: 'Easy Tiramasu',
+		location: 'Vegan & Sweet p. 3',
+		type: 'dessert'
+	},
+	{
+		name: 'Banana Dream Pie',
+		location: 'Vegan & Sweet p. 6',
+		type: 'dessert'
+	},
+	{
+		name: 'Mexican Chocolate Torte',
+		location: 'Vegan & Sweet p. 8',
+		type: 'dessert'
+	},
+	{
+		name: 'Macaroon Brownies',
+		location: 'Vegan & Sweet p. 10',
+		type: 'dessert'
+	},
+	{
+		name: 'Chef\'s Semi-Sweet Sugar-Free Chocolate',
+		location: 'Vegan & Sweet p. 12',
+		type: 'dessert'
+	},
+	{
+		name: 'Better Butter',
+		location: 'Vegan & Sweet p. 13',
+		type: ''
+	},
+	{
+		name: 'Whipped Cream',
+		location: 'Vegan & Sweet p. 14',
+		type: 'sauce'
+	}
+];
