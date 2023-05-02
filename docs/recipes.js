@@ -5491,3 +5491,286 @@ var veganAndSweetRecipes = [
 		type: 'sauce'
 	}
 ];
+
+var whatsCookinTooRecipes = [
+	{
+		name: 'Tender Brisket',
+		location: 'Whats Cookin Too p. 6',
+		type: ''
+	},
+	{
+		name: 'Creamy Coleslaw',
+		location: 'Whats Cookin Too p. 9',
+		type: ''
+	},
+	{
+		name: 'Vegan Bo Kho (Vietnamese Braised "Beef" Stew 10 Mexican Shredded "Beef"',
+		location: 'Whats Cookin Too p. 12',
+		type: ''
+	},
+	{
+		name: 'Tamales',
+		location: 'Whats Cookin Too p. 13',
+		type: ''
+	},
+	{
+		name: 'Steak Medallions',
+		location: 'Whats Cookin Too p. 15',
+		type: ''
+	},
+	{
+		name: 'Japanese Sukiyaki',
+		location: 'Whats Cookin Too p. 19',
+		type: ''
+	},
+	{
+		name: 'Pan-Glazed Chikun',
+		location: 'Whats Cookin Too p. 21',
+		type: ''
+	},
+	{
+		name: 'Deli-Style Corned "Beef"',
+		location: 'Whats Cookin Too p. 24',
+		type: ''
+	},
+	{
+		name: 'Ballparks',
+		location: 'Whats Cookin Too p. 26',
+		type: ''
+	},
+	{
+		name: 'Chili Ballparks with Skillet Chili',
+		location: 'Whats Cookin Too p. 29',
+		type: ''
+	},
+	{
+		name: 'Ballparks, Icelandic-Style with Easy Rémoulade Sauce',
+		location: 'Whats Cookin Too p. 30',
+		type: ''
+	},
+	{
+		name: 'French Saucisse (Savory Garlic and Herb Sausage)',
+		location: 'Whats Cookin Too p. 31',
+		type: ''
+	},
+	{
+		name: 'French Cassoulet',
+		location: 'Whats Cookin Too p. 34',
+		type: ''
+	},
+	{
+		name: 'French Potato Salad with Crispy French Saucisse',
+		location: 'Whats Cookin Too p. 36',
+		type: ''
+	},
+	{
+		name: 'Crumbly Mexican Chorizo',
+		location: 'Whats Cookin Too p. 38',
+		type: ''
+	},
+	{
+		name: 'Chef’s Favorite Golden Cheese Sauce 40 Gentle Jack Cheese',
+		location: 'Whats Cookin Too p. 41',
+		type: ''
+	},
+	{
+		name: 'Creamy Polenta with Gentle Jack Cheese',
+		location: 'Whats Cookin Too p. 42',
+		type: ''
+	},
+	{
+		name: 'Creamy Chikun and Rice Soup',
+		location: 'Whats Cookin Too p. 43',
+		type: ''
+	},
+	{
+		name: 'Matzo Ball Soup',
+		location: 'Whats Cookin Too p. 44',
+		type: ''
+	},
+	{
+		name: 'Eggz Flower Soup',
+		location: 'Whats Cookin Too p. 46',
+		type: ''
+	},
+	{
+		name: 'Zuppa Toscano (Italian "Sausage" Potato Kale Soup)',
+		location: 'Whats Cookin Too p. 48',
+		type: ''
+	},
+	{
+		name: 'Italian American Macaroni Salad with Pepperoni and Creamy Italian Dressing',
+		location: 'Whats Cookin Too p. 50',
+		type: ''
+	},
+	{
+		name: 'Pepperoni',
+		location: 'Whats Cookin Too p. 51',
+		type: ''
+	},
+	{
+		name: 'Spiralized Summer Squash Salad',
+		location: 'Whats Cookin Too p. 53',
+		type: ''
+	},
+	{
+		name: 'Rustic Focaccia Bread with Onions, Olives and Rosemary',
+		location: 'Whats Cookin Too p. 54',
+		type: ''
+	},
+	{
+		name: 'Ethiopian Split Pea Dal',
+		location: 'Whats Cookin Too p. 56',
+		type: ''
+	},
+	{
+		name: 'Whole Roasted Cauliflower with Zhoug, Tahini Sauce, Sumac Onions and Fresh Herbs',
+		location: 'Whats Cookin Too p. 57',
+		type: ''
+	},
+	{
+		name: 'Zhoug 58 Tahini Sauce 59 Sumac Onions 59 Charred Napa Cabbage with Tahini Sauce',
+		location: 'Whats Cookin Too p. 60',
+		type: ''
+	},
+	{
+		name: 'Classic Rice Pilaf',
+		location: 'Whats Cookin Too p. 61',
+		type: ''
+	},
+	{
+		name: 'Persian Eggplant Dip',
+		location: 'Whats Cookin Too p. 62',
+		type: ''
+	},
+	{
+		name: 'Persian Crispy Saffron Rice',
+		location: 'Whats Cookin Too p. 64',
+		type: ''
+	},
+	{
+		name: 'Persian Cucumber Yogurt Salad',
+		location: 'Whats Cookin Too p. 65',
+		type: ''
+	},
+	{
+		name: 'Persian Flatbread',
+		location: 'Whats Cookin Too p. 66',
+		type: ''
+	},
+	{
+		name: 'Scrambled Eggz – New Formula!',
+		location: 'Whats Cookin Too p. 68',
+		type: ''
+	},
+	{
+		name: 'Eggz Whites – New Formula!',
+		location: 'Whats Cookin Too p. 70',
+		type: ''
+	},
+	{
+		name: 'Skillet Cooked Eggz and Oven Cooked Eggz with Broken Yolx',
+		location: 'Whats Cookin Too p. 71',
+		type: ''
+	},
+	{
+		name: 'Broken Yolx',
+		location: 'Whats Cookin Too p. 73',
+		type: ''
+	},
+	{
+		name: 'Bacun Grease',
+		location: 'Whats Cookin Too p. 74',
+		type: ''
+	},
+	{
+		name: 'Shirred Eggz',
+		location: 'Whats Cookin Too p. 75',
+		type: ''
+	},
+	{
+		name: 'English Muffins',
+		location: 'Whats Cookin Too p. 77',
+		type: ''
+	},
+	{
+		name: 'Shakshuka',
+		location: 'Whats Cookin Too p. 79',
+		type: ''
+	},
+	{
+		name: 'Eggz Foo Yung',
+		location: 'Whats Cookin Too p. 81',
+		type: ''
+	},
+	{
+		name: 'Baked Cheesy Poblanos',
+		location: 'Whats Cookin Too p. 83',
+		type: ''
+	},
+	{
+		name: 'Easy Tiramisu',
+		location: 'Whats Cookin Too p. 84',
+		type: ''
+	},
+	{
+		name: 'Banana Dream Pie',
+		location: 'Whats Cookin Too p. 87',
+		type: ''
+	},
+	{
+		name: 'Mexican Chocolate Torte',
+		location: 'Whats Cookin Too p. 89',
+		type: ''
+	},
+	{
+		name: 'Macaroon Brownies',
+		location: 'Whats Cookin Too p. 91',
+		type: ''
+	},
+	{
+		name: 'Elegant Béarnaise Sauce',
+		location: 'Whats Cookin Too p. 93',
+		type: ''
+	},
+	{
+		name: 'No-Eggy Mayo 94 Tangy BBQ Sauce',
+		location: 'Whats Cookin Too p. 95',
+		type: ''
+	},
+	{
+		name: 'Golden Broth from Scratch',
+		location: 'Whats Cookin Too p. 96',
+		type: ''
+	},
+	{
+		name: 'Instant Golden Broth Powder',
+		location: 'Whats Cookin Too p. 97',
+		type: ''
+	},
+	{
+		name: 'Worcestershire Sauce',
+		location: 'Whats Cookin Too p. 98',
+		type: ''
+	},
+	{
+		name: 'Soy Cream',
+		location: 'Whats Cookin Too p. 99',
+		type: ''
+	},
+	{
+		name: 'Cashew Cream',
+		location: 'Whats Cookin Too p. 99',
+		type: ''
+	},
+	{
+		name: 'Whipped Cream',
+		location: 'Whats Cookin Too p. 99',
+		type: ''
+	},
+	{
+		name: 'Falafel Bites with Greek Tzatziki',
+		location: 'Whats Cookin Too p. 101',
+		type: ''
+	}
+];
