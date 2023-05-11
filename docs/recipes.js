@@ -5744,7 +5744,7 @@ var whatsCookinTooRecipes = [
 		type: ''
 	},
 	{
-		name: 'No-Eggy Mayo
+		name: 'No-Eggy Mayo',
 		location: 'Whats Cookin Too p. 94',
 		type: ''
 	},
