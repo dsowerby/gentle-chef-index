@@ -5504,7 +5504,12 @@ var whatsCookinTooRecipes = [
 		type: ''
 	},
 	{
-		name: 'Vegan Bo Kho (Vietnamese Braised "Beef" Stew 10 Mexican Shredded "Beef"',
+		name: 'Vegan Bo Kho (Vietnamese Braised "Beef" Stew',
+		location: 'Whats Cookin Too p. 10',
+		type: ''
+	},
+	{
+		name: 'Mexican Shredded "Beef"',
 		location: 'Whats Cookin Too p. 12',
 		type: ''
 	},
@@ -5569,7 +5574,12 @@ var whatsCookinTooRecipes = [
 		type: ''
 	},
 	{
-		name: 'Chef’s Favorite Golden Cheese Sauce 40 Gentle Jack Cheese',
+		name: 'Chef’s Favorite Golden Cheese Sauce',
+		location: 'Whats Cookin Too p. 40',
+		type: ''
+	},
+	{
+		name: 'Gentle Jack Cheese',
 		location: 'Whats Cookin Too p. 41',
 		type: ''
 	},
@@ -5734,7 +5744,12 @@ var whatsCookinTooRecipes = [
 		type: ''
 	},
 	{
-		name: 'No-Eggy Mayo 94 Tangy BBQ Sauce',
+		name: 'No-Eggy Mayo
+		location: 'Whats Cookin Too p. 94',
+		type: ''
+	},
+	{
+		name: 'Tangy BBQ Sauce',
 		location: 'Whats Cookin Too p. 95',
 		type: ''
 	},
