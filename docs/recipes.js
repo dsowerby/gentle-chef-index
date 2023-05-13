@@ -4764,7 +4764,7 @@ var whatsCookinRecipes = [
     {
         name: 'Teriyaki Peppered Beaf Jurky',
         location: 'Whats Cookin p. 3',
-        type: ''
+        type: 'jerky'
     },
     {
         name: 'Canadian Poutine',
@@ -4789,7 +4789,7 @@ var whatsCookinRecipes = [
     {
         name: 'Chef’s Favorite Mexican Chikun Mole',
         location: 'Whats Cookin p. 10',
-        type: ''
+        type: 'chicken chickun'
     },
     {
         name: 'Mexican Cotija Cheese',
@@ -4819,20 +4819,25 @@ var whatsCookinRecipes = [
     {
         name: 'Chikun Cacciatore',
         location: 'Whats Cookin p. 20',
-        type: ''
+        type: 'chicken chickun'
     },
     {
         name: 'Hungarian Chikun Paprikash',
         location: 'Whats Cookin p. 22',
-        type: ''
+        type: 'chicken chickun'
     },
     {
         name: 'Chinese Garlicky Cashew Chikun',
         location: 'Whats Cookin p. 24',
-        type: ''
+        type: 'chicken chickun'
     },
     {
-        name: 'Tebasaki, Nagoya-Style (Japanese Fried Chikun with Special Sauce) 26 Mapo Tofu',
+        name: 'Tebasaki, Nagoya-Style (Japanese Fried Chikun with Special Sauce)',
+        location: 'Whats Cookin p. 26',
+        type: 'chicken chickun'
+    },
+	{
+		name: 'Mapo Tofu',
         location: 'Whats Cookin p. 28',
         type: ''
     },
@@ -4844,7 +4849,7 @@ var whatsCookinRecipes = [
     {
         name: 'Chinese Shrymp Toast',
         location: 'Whats Cookin p. 32',
-        type: ''
+        type: 'shrimp prawn'
     },
     {
         name: 'Thai House Salad and Dressing',
@@ -4884,32 +4889,32 @@ var whatsCookinRecipes = [
     {
         name: 'No-Bake Cheesecake',
         location: 'Whats Cookin p. 46',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Devonshire Cream',
         location: 'Whats Cookin p. 48',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Scones',
         location: 'Whats Cookin p. 50',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Strawberry Shortcake',
         location: 'Whats Cookin p. 52',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Whipped Cream',
         location: 'Whats Cookin p. 54',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Chef’s Cinnamon Sweet Rolls',
         location: 'Whats Cookin p. 56',
-        type: ''
+        type: 'dessert'
     },
     {
         name: 'Supplemental Recipe: Cultured Yogurt (Soy Milk or Almond Milk)',
@@ -5266,7 +5271,7 @@ var craftingSeitanRecipes = [
 	{
 		name: 'Chikun-Apple Sausage',
 		location: 'Crafting Seitan p. 149',
-		type: 'chicken'
+		type: 'chicken chickun'
 	},
 	{
 		name: 'Polska Kielbasa',
@@ -5521,7 +5526,7 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Steak Medallions',
 		location: 'Whats Cookin Too p. 15',
-		type: ''
+		type: 'beef beaf'
 	},
 	{
 		name: 'Japanese Sukiyaki',
@@ -5531,12 +5536,12 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Pan-Glazed Chikun',
 		location: 'Whats Cookin Too p. 21',
-		type: ''
+		type: 'chicken chickun'
 	},
 	{
 		name: 'Deli-Style Corned "Beef"',
 		location: 'Whats Cookin Too p. 24',
-		type: ''
+		type: 'beaf'
 	},
 	{
 		name: 'Ballparks',
@@ -5571,7 +5576,12 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Crumbly Mexican Chorizo',
 		location: 'Whats Cookin Too p. 38',
-		type: ''
+		type: 'sausage'
+	},
+	{
+		name: 'Chef’s Favorite Golden Cheese Sauce',
+		location: 'Whats Cookin Too p. 40',
+		type: 'cheeze'
 	},
 	{
 		name: 'Chef’s Favorite Golden Cheese Sauce',
@@ -5581,17 +5591,17 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Gentle Jack Cheese',
 		location: 'Whats Cookin Too p. 41',
-		type: ''
+		type: 'cheeze'
 	},
 	{
 		name: 'Creamy Polenta with Gentle Jack Cheese',
 		location: 'Whats Cookin Too p. 42',
-		type: ''
+		type: 'cheeze'
 	},
 	{
 		name: 'Creamy Chikun and Rice Soup',
 		location: 'Whats Cookin Too p. 43',
-		type: ''
+		type: 'chicken chickun'
 	},
 	{
 		name: 'Matzo Ball Soup',
@@ -5601,7 +5611,7 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Eggz Flower Soup',
 		location: 'Whats Cookin Too p. 46',
-		type: ''
+		type: 'eggs'
 	},
 	{
 		name: 'Zuppa Toscano (Italian "Sausage" Potato Kale Soup)',
@@ -5616,7 +5626,7 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Pepperoni',
 		location: 'Whats Cookin Too p. 51',
-		type: ''
+		type: 'sausage'
 	},
 	{
 		name: 'Spiralized Summer Squash Salad',
@@ -5686,17 +5696,17 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Broken Yolx',
 		location: 'Whats Cookin Too p. 73',
-		type: ''
+		type: 'yolks'
 	},
 	{
 		name: 'Bacun Grease',
 		location: 'Whats Cookin Too p. 74',
-		type: ''
+		type: 'bacon'
 	},
 	{
 		name: 'Shirred Eggz',
 		location: 'Whats Cookin Too p. 75',
-		type: ''
+		type: 'eggs'
 	},
 	{
 		name: 'English Muffins',
@@ -5706,12 +5716,12 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Shakshuka',
 		location: 'Whats Cookin Too p. 79',
-		type: ''
+		type: 'eggs'
 	},
 	{
 		name: 'Eggz Foo Yung',
 		location: 'Whats Cookin Too p. 81',
-		type: ''
+		type: 'eggs'
 	},
 	{
 		name: 'Baked Cheesy Poblanos',
@@ -5721,22 +5731,22 @@ var whatsCookinTooRecipes = [
 	{
 		name: 'Easy Tiramisu',
 		location: 'Whats Cookin Too p. 84',
-		type: ''
+		type: 'dessert'
 	},
 	{
 		name: 'Banana Dream Pie',
 		location: 'Whats Cookin Too p. 87',
-		type: ''
+		type: 'dessert'
 	},
 	{
 		name: 'Mexican Chocolate Torte',
 		location: 'Whats Cookin Too p. 89',
-		type: ''
+		type: 'dessert'
 	},
 	{
 		name: 'Macaroon Brownies',
 		location: 'Whats Cookin Too p. 91',
-		type: ''
+		type: 'dessert'
 	},
 	{
 		name: 'Elegant Béarnaise Sauce',
