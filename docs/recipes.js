@@ -5799,3 +5799,572 @@ var whatsCookinTooRecipes = [
 		type: ''
 	}
 ];
+var cookingWithTheGentleChef = [
+	{
+		name: 'Gentle Chef Medallions',
+		location: 'Cooking With The Gentle Chef p. 9',
+		type: ''
+	},
+	{
+		name: 'Gentle Japanese Sukiyaki',
+		location: 'Cooking With The Gentle Chef p. 12',
+		type: ''
+	},
+	{
+		name: 'Gentle Streak Stroganoff',
+		location: 'Cooking With The Gentle Chef p. 13',
+		type: ''
+	},
+	{
+		name: 'The Gentle Philly (Cheese Steak Sandwiches)',
+		location: 'Cooking With The Gentle Chef p. 14',
+		type: ''
+	},
+	{
+		name: 'Gentle Brisket',
+		location: 'Cooking With The Gentle Chef p. 15',
+		type: 'beef beaf'
+	},
+	{
+		name: 'Benevolent Bo Kho (Vietnamese Braised "Beef" Stew)',
+		location: 'Cooking With The Gentle Chef p. 17',
+		type: ''
+	},
+	{
+		name: 'Gentle Mexican Shredded Brisket',
+		location: 'Cooking With The Gentle Chef p. 19',
+		type: ''
+	},
+	{
+		name: 'Gentle Chickun',
+		location: 'Cooking With The Gentle Chef p. 20',
+		type: 'chicken'
+	},
+	{
+		name: 'Creamy Chickun and Rice Soup',
+		location: 'Cooking With The Gentle Chef p. 22',
+		type: ''
+	},
+	{
+		name: 'Pan-Glazed Chickun',
+		location: 'Cooking With The Gentle Chef p. 23',
+		type: 'chicken'
+	},
+	{
+		name: 'Gentle Chickun Cacciatore',
+		location: 'Cooking With The Gentle Chef p. 24',
+		type: 'chicken'
+	},
+	{
+		name: 'Hungarian Chickun Paprikash',
+		location: 'Cooking With The Gentle Chef p. 25',
+		type: 'chicken'
+	},
+	{
+		name: 'Chinese Garlicky Cashew Chickun',
+		location: 'Cooking With The Gentle Chef p. 62',
+		type: 'chicken'
+	},
+	{
+		name: 'Tebasaki, Nagoya-Style (Japanese Fried Chickun with Special Sauce)',
+		location: 'Cooking With The Gentle Chef p. 27',
+		type: 'chicken'
+	},
+	{
+		name: 'Mapo Tofu',
+		location: 'Cooking With The Gentle Chef p. 29',
+		type: ''
+	},
+	{
+		name: 'Korean Tempeh Buddha Bowl',
+		location: 'Cooking With The Gentle Chef p. 30',
+		type: ''
+	},
+	{
+		name: 'Gentle Temales',
+		location: 'Cooking With The Gentle Chef p. 32',
+		type: ''
+	},
+	{
+		name: 'Crumbly Mexican Soy Chorizo',
+		location: 'Cooking With The Gentle Chef p. 34',
+		type: ''
+	},
+	{
+		name: 'Zesty Refried Bean Dip and Spread',
+		location: 'Cooking With The Gentle Chef p. 35',
+		type: ''
+	},
+	{
+		name: 'Mexican Chickun Mole',
+		location: 'Cooking With The Gentle Chef p. 36',
+		type: 'chicken'
+	},
+	{
+		name: 'Mexican Corn Salad',
+		location: 'Cooking With The Gentle Chef p. 37',
+		type: ''
+	},
+	{
+		name: 'Soy Cotija/Feta Cheese',
+		location: 'Cooking With The Gentle Chef p. 38',
+		type: ''
+	},
+	{
+		name: 'Golden Cheesy Sauce',
+		location: 'Cooking With The Gentle Chef p. 39',
+		type: 'cheeze'
+	},
+	{
+		name: 'Compassionate Canadian Poutine',
+		location: 'Cooking With The Gentle Chef p. 40',
+		type: ''
+	},
+	{
+		name: 'Gentle Jack and Peppery Jack Cheese',
+		location: 'Cooking With The Gentle Chef p. 42',
+		type: ''
+	},
+	{
+		name: 'Creamy Chickun and Rice Soup',
+		location: 'Cooking With The Gentle Chef p. 22',
+		type: ''
+	},
+	{
+		name: 'Creamy Polenta with Peppery Jack Cheese',
+		location: 'Cooking With The Gentle Chef p. 43',
+        type: ''
+    },
+	{
+		name: 'Rajas con Crema (Roasted Poblano Chiles in Cream Sauce)',
+		location: 'Cooking With The Gentle Chef p. 44',
+        type: ''
+    },
+	{
+		name: 'Baked Cheesy Poblanos and Onions',
+		location: 'Cooking With The Gentle Chef p. 45',
+        type: ''
+    },
+	{
+		name: 'Deli-Style crned "Beef" Seitan',
+		location: 'Cooking With The Gentle Chef p. 46',
+        type: ''
+    },
+	{
+		name: 'Teriyaki Peppered Seitan Jerky',
+		location: 'Cooking With The Gentle Chef p. 47',
+        type: ''
+    },
+	{
+		name: 'Gentle Spam',
+		location: 'Cooking With The Gentle Chef p. 49',
+        type: ''
+    },
+	{
+		name: 'Gentle Baloney',
+		location: 'Cooking With The Gentle Chef p. 51',
+        type: ''
+    },
+	{
+		name: 'Gentle Summer Sauge',
+		location: 'Cooking With The Gentle Chef p. 53',
+        type: ''
+    },
+	{
+		name: 'Sizzlin\' Soy Burgers',
+		location: 'Cooking With The Gentle Chef p. 55',
+        type: ''
+    },
+	{
+		name: 'Salisbury Soy Steaks with Onion Mushroom Gravy',
+		location: 'Cooking With The Gentle Chef p. 57',
+        type: ''
+    },
+	{
+		name: 'Glazed Meatloaf',
+		location: 'Cooking With The Gentle Chef p. 58',
+        type: ''
+    },
+	{
+		name: 'Gentle Meatballs (Soy-Based)',
+		location: 'Cooking With The Gentle Chef p. 60',
+        type: ''
+    },
+	{
+		name: 'Ballparks (Vegan Franks)',
+		location: 'Cooking With The Gentle Chef p. 62',
+        type: ''
+    },
+	{
+		name: 'Chili Ballparks',
+		location: 'Cooking With The Gentle Chef p. 64',
+        type: ''
+    },
+	{
+		name: 'Gentille Saucisse (Savory French Garlic and Herb Sausage)',
+		location: 'Cooking With The Gentle Chef p. 65',
+        type: ''
+    },
+	{
+		name: 'French Cassoulet',
+		location: 'Cooking With The Gentle Chef p. 67',
+        type: ''
+    },
+	{
+		name: 'French Potato Salad with Crispy French Gentille Saucisse',
+		location: 'Cooking With The Gentle Chef p. 68',
+        type: ''
+    },
+	{
+		name: 'Italian Soy Sausages (with Casing or Sausage Crumbles)',
+		location: 'Cooking With The Gentle Chef p. 70',
+        type: ''
+    },
+	{
+		name: 'Soy Kielbasa (Polish Soy Sausage with Casing)',
+		location: 'Cooking With The Gentle Chef p. 73',
+        type: ''
+    },
+	{
+		name: 'Country-Style Soy Sausage (Breakfast Patties or Sausage Crumbles)',
+		location: 'Cooking With The Gentle Chef p. 75',
+        type: ''
+    },
+	{
+		name: 'Gentle Pepperoni',
+		location: 'Cooking With The Gentle Chef p. 77',
+        type: ''
+    },
+	{
+		name: 'Ethiopian Split Pea Dal',
+		location: 'Cooking With The Gentle Chef p. 78',
+        type: ''
+    },
+	{
+		name: 'African Peanut Sew',
+		location: 'Cooking With The Gentle Chef p. 79',
+        type: ''
+    },
+	{
+		name: 'Albondigas Soup (Maxican Soy Meatball Soup)',
+		location: 'Cooking With The Gentle Chef p. 80',
+        type: ''
+    },
+	{
+		name: 'Matxo Ball Soup',
+		location: 'Cooking With The Gentle Chef p. 81',
+        type: ''
+	},
+	{
+		name: 'Eggz Flower Soup',
+		location: 'Cooking With The Gentle Chef p. 82',
+        type: ''
+    },
+	{
+		name: 'Zuppa Toscano (Italian Soy "Sausage" and Potato Kale Soup)',
+		location: 'Cooking With The Gentle Chef p. 83',
+        type: ''
+    },
+	{
+		name: 'Spaghetti Carbonara',
+        location: 'Cooking With The Gentle Chef p. 84',
+        type: ''
+    },
+	{
+		name: 'Italian-American Macaroni Salad with Creamy Italian Dressing',
+        location: 'Cooking With The Gentle Chef p. 86',
+        type: ''
+    },
+	{
+		name: 'Corned Beef Raubens with Russian Dressing',
+        location: 'Cooking With The Gentle Chef p. 87',
+        type: ''
+    },
+	{
+		name: 'Creamy Coleslaw',
+        location: 'Cooking With The Gentle Chef p. 88',
+        type: ''
+    },
+	{
+		name: 'Thai House Salad with Dressing',
+        location: 'Cooking With The Gentle Chef p. 89',
+        type: ''
+    },
+	{
+		name: 'Spiralized Summer Squash Salad',
+        location: 'Cooking With The Gentle Chef p. 90',
+        type: ''
+    },
+	{
+		name: 'Rustic Focaccia Bread with Onions, Olives and Rosemary',
+        location: 'Cooking With The Gentle Chef p. 91',
+        type: ''
+    },
+	{
+		name: 'Falafel Bites',
+        location: 'Cooking With The Gentle Chef p. 93',
+        type: ''
+    },
+	{
+		name: 'Greek Tzatziki',
+        location: 'Cooking With The Gentle Chef p. 94',
+        type: ''
+    },
+	{
+		name: 'Middle Eastern Whole Roasted Cauliflower',
+        location: 'Cooking With The Gentle Chef p. 95',
+        type: ''
+    },
+	{
+		name: 'Zhoug',
+        location: 'Cooking With The Gentle Chef p. 96',
+        type: ''
+    },
+	{
+		name: 'Tahini Sauce',
+        location: 'Cooking With The Gentle Chef p. 97',
+        type: ''
+    },
+	{
+		name: 'Sumac Onions',
+        location: 'Cooking With The Gentle Chef p. 97',
+        type: ''
+    },
+	{
+		name: 'Charred Napa Cabbage with Tahini Sauce',
+        location: 'Cooking With The Gentle Chef p. 98',
+        type: ''
+    },
+	{
+		name: 'Classic Rice Pilaf with Vermicelli',
+        location: 'Cooking With The Gentle Chef p. 98',
+        type: ''
+    },
+	{
+		name: 'Pennsylvania Dutch Cabbage Steaks',
+        location: 'Cooking With The Gentle Chef p. 99',
+        type: ''
+    },
+	{
+		name: 'Biryani (Indian Rice with Vegetables)',
+        location: 'Cooking With The Gentle Chef p. 100',
+        type: ''
+    },
+	{
+		name: 'Kabuli Pulao (Afghani Rice Pilaf)',
+        location: 'Cooking With The Gentle Chef p. 101',
+        type: ''
+    },
+	{
+		name: 'Spanish Rice',
+        location: 'Cooking With The Gentle Chef p. 102',
+        type: ''
+    },
+	{
+		name: 'Syrian Rice',
+        location: 'Cooking With The Gentle Chef p. 102',
+        type: ''
+    },
+	{
+		name: 'Syrian Muhammara',
+        location: 'Cooking With The Gentle Chef p. 103',
+        type: ''
+    },
+	{
+		name: 'Persian Eggplant Dip',
+        location: 'Cooking With The Gentle Chef p. 104',
+        type: ''
+    },
+	{
+		name: 'Persian Crispy Saffron Rice',
+        location: 'Cooking With The Gentle Chef p. 105',
+        type: ''
+    },
+	{
+		name: 'Persian Flatbread',
+        location: 'Cooking With The Gentle Chef p. 106',
+        type: ''
+    },
+	{
+		name: 'Persian Cucumber Yoghurt Salad',
+        location: 'Cooking With The Gentle Chef p. 107',
+        type: ''
+    },
+	{
+		name: 'Scrambled Eggz - New Formula!',
+        location: 'Cooking With The Gentle Chef p. 108',
+        type: ''
+    },
+	{
+		name: 'Eggz Whites - New Formula!',
+        location: 'Cooking With The Gentle Chef p. 109',
+        type: ''
+    },
+	{
+		name: 'Broken Yolx',
+        location: 'Cooking With The Gentle Chef p. 111',
+        type: ''
+    },
+	{
+		name: 'Bacun Grease',
+        location: 'Cooking With The Gentle Chef p. 112',
+        type: ''
+    },
+	{
+		name: 'Shirred Eggz',
+        location: 'Cooking With The Gentle Chef p. 113',
+        type: ''
+    },
+	{
+		name: 'English Muffins',
+        location: 'Cooking With The Gentle Chef p. 114',
+        type: ''
+    },
+	{
+		name: 'Cheesy Chive Drop Biscuits',
+        location: 'Cooking With The Gentle Chef p. 115',
+        type: ''
+    },
+	{
+		name: 'Shakshuka',
+        location: 'Cooking With The Gentle Chef p. 117',
+        type: ''
+    },
+	{
+		name: 'Eggz Foo Yung',
+        location: 'Cooking With The Gentle Chef p. 118',
+        type: ''
+    },
+
+
+	{
+		name: 'Easy Tiamisu',
+        location: 'Cooking With The Gentle Chef p. 120',
+        type: ''
+    },
+	{
+		name: 'Banana Dream Pie',
+        location: 'Cooking With The Gentle Chef p. 123',
+        type: ''
+    },
+	{
+		name: 'Mexican Chocolate Torte',
+        location: 'Cooking With The Gentle Chef p. 124',
+        type: ''
+    },
+	{
+		name: 'Macaroon Brownies',
+        location: 'Cooking With The Gentle Chef p. 126',
+        type: ''
+    },
+	{
+		name: 'No-Bake Cheesecake',
+        location: 'Cooking With The Gentle Chef p. 128',
+        type: ''
+    },
+	{
+		name: 'Devonishire Cream',
+        location: 'Cooking With The Gentle Chef p. 129',
+        type: ''
+    },
+	{
+		name: 'Scones',
+        location: 'Cooking With The Gentle Chef p. 131',
+        type: ''
+    },
+	{
+		name: 'Strawberry Shortcake',
+        location: 'Cooking With The Gentle Chef p. 133',
+        type: ''
+    },
+	{
+		name: 'Soy Whipped Cream',
+        location: 'Cooking With The Gentle Chef p. 134',
+        type: ''
+    },
+	{
+		name: 'Organic Powered Sugar',
+        location: 'Cooking With The Gentle Chef p. 135',
+        type: ''
+    },
+	{
+		name: 'Cinnamon Sweet Rolls',
+        location: 'Cooking With The Gentle Chef p. 136',
+        type: ''
+    },
+	{
+		name: 'Better Butter',
+        location: 'Cooking With The Gentle Chef p. 138',
+        type: ''
+    },
+	{
+		name: 'No-Eggy Mayo',
+        location: 'Cooking With The Gentle Chef p. 140',
+        type: ''
+    },
+	{
+		name: 'Easy Rémoulade Sauce',
+        location: 'Cooking With The Gentle Chef p. 141',
+        type: ''
+    },
+	{
+		name: 'Aromatica',
+        location: 'Cooking With The Gentle Chef p. 141',
+        type: ''
+    },
+	{
+		name: 'Elegant Béarnaise Sauce',
+        location: 'Cooking With The Gentle Chef p. 142',
+        type: ''
+    },
+	{
+		name: 'Golden Broth from Scratch',
+        location: 'Cooking With The Gentle Chef p. 143',
+        type: ''
+    },
+	{
+		name: 'Instant Golden Broth Powder',
+        location: 'Cooking With The Gentle Chef p. 144',
+        type: ''
+    },
+	{
+		name: 'Brown Bouillion',
+        location: 'Cooking With The Gentle Chef p. 145',
+        type: ''
+    },
+	{
+		name: 'Worcestershire Sauce',
+        location: 'Cooking With The Gentle Chef p. 146',
+        type: ''
+    },
+	{
+		name: 'Soy Cream and Cashew Cream',
+        location: 'Cooking With The Gentle Chef p. 147',
+        type: ''
+    },
+	{
+		name: 'Gentle Sour Cream',
+        location: 'Cooking With The Gentle Chef p. 148',
+        type: ''
+    },
+	{
+		name: 'Soymilk Yogurt',
+        location: 'Cooking With The Gentle Chef p. 149',
+        type: ''
+    },
+	{
+		name: 'Marbling Fat',
+        location: 'Cooking With The Gentle Chef p. 151',
+        type: ''
+    },
+	{
+		name: 'Golden Block Cheese',
+        location: 'Cooking With The Gentle Chef p. 152',
+        type: ''
+    },
+	{
+		name: 'Hard Parmesano',
+        location: 'Cooking With The Gentle Chef p. 154',
+        type: ''
+    }
+];
