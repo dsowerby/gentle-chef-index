@@ -5509,7 +5509,7 @@ var whatsCookinTooRecipes = [
 		type: ''
 	},
 	{
-		name: 'Vegan Bo Kho (Vietnamese Braised "Beef" Stew',
+		name: 'Vegan Bo Kho (Vietnamese Braised "Beef" Stew)',
 		location: 'Whats Cookin Too p. 10',
 		type: ''
 	},
