@@ -6368,3 +6368,285 @@ var cookingWithTheGentleChef = [
         type: ''
     }
 ];
+var gentleChefHoliday = [
+	{
+		name: 'Glazed Holiday Turky',
+		location: 'A Gentle Chef Holiday p. 4',
+		type: ''
+	},
+	{
+		name: 'Amber Gravy',
+		location: 'A Gentle Chef Holiday p. 7',
+		type: ''
+	},
+	{
+		name: 'Sage Dressing with Mushrooms',
+		location: 'A Gentle Chef Holiday p. 9',
+		type: ''
+	},
+	{
+		name: 'Holiday Glazed Garden Ham',
+		location: 'A Gentle Chef Holiday p. 11',
+		type: ''
+	},
+	{
+		name: 'Roast Beaf au Jus',
+		location: 'A Gentle Chef Holiday p. 14',
+		type: ''
+	},
+	{
+		name: 'Savory Brown Gravy',
+		location: 'A Gentle Chef Holiday p. 17',
+		type: ''
+	},
+	{
+		name: 'Medallions of Porq',
+		location: 'A Gentle Chef Holiday p. 19',
+		type: ''
+	},
+	{
+		name: 'Peppercorn Herb Gravy',
+		location: 'A Gentle Chef Holiday p. 22',
+		type: ''
+	},
+	{
+		name: 'Spring Seitan Roast au Jus (Mock Lamb) with English Mint Sauce',
+		location: 'A Gentle Chef Holiday p. 23',
+		type: ''
+	},
+	{
+		name: 'Holiday Stuffed Cabbage Rolls',
+		location: 'A Gentle Chef Holiday p. 26',
+		type: ''
+	},
+	{
+		name: 'Middle Eastern Whole Roasted Cabbage with Zhoug, Tahini Sauce, Sumac Onions and Fresh Herbs',
+		location: 'A Gentle Chef Holiday p. 28',
+		type: ''
+	},
+	{
+		name: 'Fiesta Tamales',
+		location: 'A Gentle Chef Holiday p. 31',
+		type: ''
+	},
+	{
+		name: 'Roasted Acorn Squash with Vegetable Couscous Stuffing',
+		location: 'A Gentle Chef Holiday p. 33',
+		type: ''
+	},
+	{
+		name: 'Garlicky Mushrooms',
+		location: 'A Gentle Chef Holiday p. 35',
+		type: ''
+	},
+	{
+		name: 'Kalamata Olive and Artichoke Hummus',
+		location: 'A Gentle Chef Holiday p. 36',
+		type: ''
+	},
+	{
+		name: 'Garlic Herb Cheese Spread',
+		location: 'A Gentle Chef Holiday p. 38',
+		type: ''
+	},
+	{
+		name: 'Olive Tapenade',
+		location: 'A Gentle Chef Holiday p. 39',
+		type: ''
+	},
+	{
+		name: 'Rustic Focaccia Bread with Onions, Olives and Rosemary',
+		location: 'A Gentle Chef Holiday p. 40',
+		type: ''
+	},
+	{
+		name: 'Amande ~ Almond Curd Chèvre',
+		location: 'A Gentle Chef Holiday p. 42',
+		type: ''
+	},
+	{
+		name: 'French Brie',
+		location: 'A Gentle Chef Holiday p. 44',
+		type: ''
+	},
+	{
+		name: 'Mediterranean Salad with Pomegranate Vinaigrette',
+		location: 'A Gentle Chef Holiday p. 46',
+		type: ''
+	},
+	{
+		name: 'Chipotle Pumpkin Soup with Toasted Pepitas',
+		location: 'A Gentle Chef Holiday p. 47',
+		type: ''
+	},
+	{
+		name: 'Mushroom Barley Soup',
+		location: 'A Gentle Chef Holiday p. 49',
+		type: ''
+	},
+	{
+		name: 'Holiday Green Bean Casserole',
+		location: 'A Gentle Chef Holiday p. 51',
+		type: ''
+	},
+	{
+		name: 'Crispy French-Fried Onions',
+		location: 'A Gentle Chef Holiday p. 53',
+		type: ''
+	},
+	{
+		name: 'Sautéed Green Beans with Sweet Onion and Savory Almonds',
+		location: 'A Gentle Chef Holiday p. 54',
+		type: ''
+	},
+	{
+		name: 'Buttery-Browned Brussels Sprouts',
+		location: 'A Gentle Chef Holiday p. 55',
+		type: ''
+	},
+	{
+		name: 'Classic Whipped Potatoes',
+		location: 'A Gentle Chef Holiday p. 56',
+		type: ''
+	},
+	{
+		name: 'Potatoes au Gratin',
+		location: 'A Gentle Chef Holiday p. 57',
+		type: ''
+	},
+	{
+		name: 'Gratin Cheese Sauce',
+		location: 'A Gentle Chef Holiday p. 58',
+		type: ''
+	},
+	{
+		name: 'Fiesta Corn',
+		location: 'A Gentle Chef Holiday p. 59',
+		type: ''
+	},
+	{
+		name: 'Cinnamon Stewed Apples',
+		location: 'A Gentle Chef Holiday p. 60',
+		type: ''
+	},
+	{
+		name: 'Charred Brussels Sprouts Slaw',
+		location: 'A Gentle Chef Holiday p. 61',
+		type: ''
+	},
+	{
+		name: 'Cauliflower Couscous',
+		location: 'A Gentle Chef Holiday p. 62',
+		type: ''
+	},
+	{
+		name: 'Creamed Baby Peas and Pearled Onions',
+		location: 'A Gentle Chef Holiday p. 63',
+		type: ''
+	},
+	{
+		name: 'Savory Balsamic Roasted Sweet Potatoes',
+		location: 'A Gentle Chef Holiday p. 64',
+		type: ''
+	},
+	{
+		name: 'Garlic Rosemary Crusty Bread Rolls',
+		location: 'A Gentle Chef Holiday p. 65',
+		type: ''
+	},
+	{
+		name: 'Jellied Port Wine Cranberry Sauce',
+		location: 'A Gentle Chef Holiday p. 67',
+		type: ''
+	},
+	{
+		name: 'Classic ‘Nog',
+		location: 'A Gentle Chef Holiday p. 68',
+		type: ''
+	},
+	{
+		name: 'Whole Berry Cranberry Sauce',
+		location: 'A Gentle Chef Holiday p. 69',
+		type: ''
+	},
+	{
+		name: 'Pineapple Sauce',
+		location: 'A Gentle Chef Holiday p. 69',
+		type: ''
+	},
+	{
+		name: 'Holiday Brunch Casserole',
+		location: 'A Gentle Chef Holiday p. 70',
+		type: ''
+	},
+	{
+		name: 'Garlic Herb Breakfast Sausage',
+		location: 'A Gentle Chef Holiday p. 72',
+		type: ''
+	},
+	{
+		name: 'No-Bake Cheesecake with Whole Berry Cranberry Sauce',
+		location: 'A Gentle Chef Holiday p. 74',
+		type: ''
+	},
+	{
+		name: 'No-Bake Eggless \'Nog Cheesecake',
+		location: 'A Gentle Chef Holiday p. 76',
+		type: ''
+	},
+	{
+		name: 'No-Bake Ginger Spice Cheesecake',
+		location: 'A Gentle Chef Holiday p. 77',
+		type: ''
+	},
+	{
+		name: 'Classic Pumpkin Pie',
+		location: 'A Gentle Chef Holiday p. 78',
+		type: ''
+	},
+	{
+		name: 'Whole Grain Bread Pudding',
+		location: 'A Gentle Chef Holiday p. 80',
+		type: ''
+	},
+	{
+		name: 'with Drunken Raisins and Salted',
+		location: 'A Gentle Chef Holiday p. Caramel',
+		type: ''
+	},
+	{
+		name: 'Autumn-Spice Pear Cobbler',
+		location: 'A Gentle Chef Holiday p. 82',
+		type: ''
+	},
+	{
+		name: 'Soy Feta/Cotija Cheese',
+		location: 'A Gentle Chef Holiday p. 84',
+		type: ''
+	},
+	{
+		name: 'Worcestershire Sauce',
+		location: 'A Gentle Chef Holiday p. 85',
+		type: ''
+	},
+	{
+		name: 'Better Butter',
+		location: 'A Gentle Chef Holiday p. 86',
+		type: ''
+	},
+	{
+		name: 'Vegetable Broth',
+		location: 'A Gentle Chef Holiday p. 87',
+		type: ''
+	},
+	{
+		name: 'Whipped Cream (Soy-Based)',
+		location: 'A Gentle Chef Holiday p. 88',
+		type: ''
+	},
+	{
+		name: 'Aromatica (Commercial Poultry Seasoning Alternative)',
+		location: 'A Gentle Chef Holiday p. 89',
+		type: ''
+	}
+];
