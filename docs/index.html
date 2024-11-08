@@ -107,10 +107,14 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.0/list.min.js"></script>
 	<script src="./recipes.js"></script>
 	<script type="text/javascript">
+		function removeDiacritics(str) {
+			return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+		}
 		$(document).ready(function() {
 			var options = {
 				valueNames: [ 'name', 'normalisedName', 'location', 'type' ],
-				item: '<li><h3 class="name"></h3><span class="location"></span><span class="type"></span></li>'
+				item: '<li><h3 class="name"></h3><span class="location"></span><span class="type"></span></li>',
+				threshold: 0.1
 			};
 
 			var recipes = []
@@ -129,13 +133,22 @@
 				.concat(cookingWithTheGentleChef)
 				.concat(gentleChefHoliday);
 			recipes.forEach(item => {
-				item.normalisedName = item.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+				item.normalisedName = removeDiacritics(item.name);
 			});
 			var recipeList = new List('recipes', options, recipes);
 			if (window.location.search != null) {
 				var query = new URLSearchParams(window.location.search).get('query');
 				recipeList.search(query);
 				$('.search').val(query);
+			}
+			function performSearch() {
+				const searchInput = document.getElementById('searchInput').value;
+				const normalizedSearch = removeDiacritics(searchInput.toLowerCase());
+				
+				recipeList.search((item) => {
+					const itemName = removeDiacritics(item.values().name.toLowerCase());
+					return itemName.includes(normalizedSearch);
+				});
 			}
 		});
 	</script>
@@ -160,7 +173,7 @@
 		<a href="https://276451.e-junkie.com/product/1864627" target="_blank">A Gentle Chef Holiday</a>.
 		this page does not contain any recipes, so if you want them just go and buy the book - it's worth every penny!</p>
 	<div id="recipes">
-		<input class="search" placeholder="Search" />
+		<input class="fuzzy-search" placeholder="Search" />
 		<div class="sort-by">
 			Sort by:
 			<button class="sort" data-sort="name">name</button>
